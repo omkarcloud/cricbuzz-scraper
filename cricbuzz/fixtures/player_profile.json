@@ -1,0 +1,585 @@
+{
+ "battingStats": {
+  "headers": [
+   "ROWHEADER",
+   "Test",
+   "ODI",
+   "T20",
+   "IPL"
+  ],
+  "values": [
+   {
+    "values": [
+     "Matches",
+     "123",
+     "314",
+     "125",
+     "283"
+    ]
+   },
+   {
+    "values": [
+     "Innings",
+     "210",
+     "302",
+     "117",
+     "275"
+    ]
+   },
+   {
+    "values": [
+     "Runs",
+     "9230",
+     "14941",
+     "4188",
+     "9336"
+    ]
+   },
+   {
+    "values": [
+     "Balls",
+     "16608",
+     "15903",
+     "3056",
+     "6926"
+    ]
+   },
+   {
+    "values": [
+     "Highest",
+     "254",
+     "183",
+     "122",
+     "113"
+    ]
+   },
+   {
+    "values": [
+     "Average",
+     "46.85",
+     "58.59",
+     "48.7",
+     "40.42"
+    ]
+   },
+   {
+    "values": [
+     "SR",
+     "55.58",
+     "93.96",
+     "137.05",
+     "134.80"
+    ]
+   },
+   {
+    "values": [
+     "Not Out",
+     "13",
+     "47",
+     "31",
+     "44"
+    ]
+   },
+   {
+    "values": [
+     "Fours",
+     "1027",
+     "1389",
+     "369",
+     "844"
+    ]
+   },
+   {
+    "values": [
+     "Sixes",
+     "30",
+     "172",
+     "124",
+     "316"
+    ]
+   },
+   {
+    "values": [
+     "Ducks",
+     "15",
+     "18",
+     "7",
+     "12"
+    ]
+   },
+   {
+    "values": [
+     "50s",
+     "31",
+     "79",
+     "38",
+     "68"
+    ]
+   },
+   {
+    "values": [
+     "100s",
+     "30",
+     "54",
+     "1",
+     "9"
+    ]
+   },
+   {
+    "values": [
+     "200s",
+     "7",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "values": [
+     "300s",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "values": [
+     "400s",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   }
+  ],
+  "appIndex": {
+   "seoTitle": "Virat Kohli Profile - Cricbuzz | Cricbuzz.com",
+   "webURL": "http://www.cricbuzz.com/profiles/1413/virat-kohli"
+  },
+  "seriesSpinner": [
+   {
+    "seriesName": "Career"
+   }
+  ]
+ },
+ "bowlingStats": {
+  "headers": [
+   "ROWHEADER",
+   "Test",
+   "ODI",
+   "T20",
+   "IPL"
+  ],
+  "values": [
+   {
+    "values": [
+     "Matches",
+     "123",
+     "314",
+     "125",
+     "283"
+    ]
+   },
+   {
+    "values": [
+     "Innings",
+     "11",
+     "50",
+     "13",
+     "26"
+    ]
+   },
+   {
+    "values": [
+     "Balls",
+     "175",
+     "662",
+     "152",
+     "251"
+    ]
+   },
+   {
+    "values": [
+     "Runs",
+     "84",
+     "680",
+     "204",
+     "368"
+    ]
+   },
+   {
+    "values": [
+     "Maidens",
+     "2",
+     "1",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "values": [
+     "Wickets",
+     "0",
+     "5",
+     "4",
+     "4"
+    ]
+   },
+   {
+    "values": [
+     "Avg",
+     "0.0",
+     "136.0",
+     "51.0",
+     "92.0"
+    ]
+   },
+   {
+    "values": [
+     "Eco",
+     "2.88",
+     "6.16",
+     "8.05",
+     "8.8"
+    ]
+   },
+   {
+    "values": [
+     "SR",
+     "0.0",
+     "132.4",
+     "38.0",
+     "62.75"
+    ]
+   },
+   {
+    "values": [
+     "BBI",
+     "0/0",
+     "1/13",
+     "1/13",
+     "2/25"
+    ]
+   },
+   {
+    "values": [
+     "BBM",
+     "0/0",
+     "1/13",
+     "1/13",
+     "2/25"
+    ]
+   },
+   {
+    "values": [
+     "4w",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "values": [
+     "5w",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   },
+   {
+    "values": [
+     "10w",
+     "0",
+     "0",
+     "0",
+     "0"
+    ]
+   }
+  ],
+  "appIndex": {
+   "seoTitle": "Virat Kohli Profile - Cricbuzz | Cricbuzz.com",
+   "webURL": "http://www.cricbuzz.com/profiles/1413/virat-kohli"
+  },
+  "seriesSpinner": [
+   {
+    "seriesName": "Career"
+   }
+  ]
+ },
+ "playerCareerData": {
+  "values": [
+   {
+    "name": "t20",
+    "debut": "vs Zimbabwe,  2010-06-12, Harare Sports Club",
+    "lastPlayed": "vs South Africa,  2024-06-29, Kensington Oval",
+    "debutMatchID": "2300",
+    "lastPlayedMatchId": "87878"
+   },
+   {
+    "name": "test",
+    "debut": "vs West Indies,  2011-06-20, Sabina Park",
+    "lastPlayed": "vs Australia,  2025-01-03, Sydney Cricket Ground",
+    "debutMatchID": "9853",
+    "lastPlayedMatchId": "91814"
+   },
+   {
+    "name": "odi",
+    "debut": "vs Sri Lanka,  2008-08-18, Rangiri Dambulla International Stadium",
+    "lastPlayed": "vs England,  2026-07-19, Lord's",
+    "debutMatchID": "3577",
+    "lastPlayedMatchId": "129480"
+   },
+   {
+    "name": "ipl",
+    "debut": "vs Kolkata Knight Riders,  2008-04-18, M.Chinnaswamy Stadium",
+    "lastPlayed": "vs Gujarat Titans,  2026-05-31, Narendra Modi Stadium",
+    "debutMatchID": "10557",
+    "lastPlayedMatchId": "155409"
+   },
+   {
+    "name": "cl",
+    "debut": "vs Cape Cobras,  2009-10-08, M.Chinnaswamy Stadium",
+    "lastPlayed": "vs Mumbai Indians,  2011-10-09, MA Chidambaram Stadium",
+    "debutMatchID": "11018",
+    "lastPlayedMatchId": "10784"
+   }
+  ],
+  "appIndex": {
+   "seoTitle": "Virat Kohli Profile - Cricbuzz | Cricbuzz.com",
+   "webURL": "http://www.cricbuzz.com/profiles/1413/virat-kohli"
+  }
+ },
+ "playerData": {
+  "id": "1413",
+  "bat": "Right Handed Bat",
+  "bowl": "Right-arm medium",
+  "name": "Virat Kohli",
+  "fullName": "Virat Kohli",
+  "height": "5 ft 9 in (175 cm) ",
+  "role": "Batsman",
+  "birthPlace": "Delhi",
+  "intlTeam": "India",
+  "teams": "India, Delhi, India Red, India U19, Royal Challengers Bengaluru, Board Presidents XI, North Zone, Indians, India A, Asia XI",
+  "DoB": "November 05, 1988 (37 years)",
+  "image": "http://i.cricketcb.com/stats/img/faceImages/1413.jpg",
+  "bio": "$26",
+  "rankings": {
+   "bat": {
+    "odiRank": "3",
+    "testBestRank": "1",
+    "odiBestRank": "1",
+    "t20BestRank": "1"
+   },
+   "bowl": {
+    "t20BestRank": "89"
+   },
+   "all": {
+    "odiBestRank": "98",
+    "t20BestRank": "10"
+   }
+  },
+  "appIndex": {
+   "seoTitle": "Virat Kohli Profile - Cricbuzz | Cricbuzz.com",
+   "webURL": "http://www.cricbuzz.com/profiles/1413/virat-kohli"
+  },
+  "DoBFormat": "November 05, 1988",
+  "faceImageId": 616517,
+  "teamNameIds": [
+   {
+    "teamId": "2",
+    "teamName": "India"
+   },
+   {
+    "teamId": "81",
+    "teamName": "Delhi"
+   },
+   {
+    "teamId": "21",
+    "teamName": "India Red"
+   },
+   {
+    "teamId": "54",
+    "teamName": "India U19"
+   },
+   {
+    "teamId": "59",
+    "teamName": "Royal Challengers Bengaluru"
+   },
+   {
+    "teamId": "86",
+    "teamName": "Board Presidents XI"
+   },
+   {
+    "teamId": "233",
+    "teamName": "North Zone"
+   },
+   {
+    "teamId": "276",
+    "teamName": "Indians"
+   },
+   {
+    "teamId": "78",
+    "teamName": "India A"
+   },
+   {
+    "teamId": "37",
+    "teamName": "Asia XI"
+   }
+  ],
+  "playerTeamIds": "2, 81, 21, 54, 59, 86, 233, 276, 78, 37",
+  "intlTeamImageId": 776162,
+  "recentBatting": {
+   "headers": [
+    "Score",
+    "OPPN.",
+    "Format",
+    "Date"
+   ],
+   "rows": [
+    {
+     "values": [
+      "129480",
+      "74(60)",
+      "ENG",
+      "ODI",
+      "19 Jul 26"
+     ],
+     "followUpLinkText": "/live-cricket-scores/129480/eng-vs-ind-3rd-odi-india-tour-of-england-2026"
+    },
+    {
+     "values": [
+      "129469",
+      "65(66)",
+      "ENG",
+      "ODI",
+      "16 Jul 26"
+     ],
+     "followUpLinkText": "/live-cricket-scores/129469/eng-vs-ind-2nd-odi-india-tour-of-england-2026"
+    },
+    {
+     "values": [
+      "129458",
+      "5(6)",
+      "ENG",
+      "ODI",
+      "14 Jul 26"
+     ],
+     "followUpLinkText": "/live-cricket-scores/129458/eng-vs-ind-1st-odi-india-tour-of-england-2026"
+    },
+    {
+     "values": [
+      "155409",
+      "75*(42)",
+      "GT",
+      "T20",
+      "31 May 26"
+     ],
+     "followUpLinkText": "/live-cricket-scores/155409/rcb-vs-gt-final-indian-premier-league-2026"
+    },
+    {
+     "values": [
+      "155376",
+      "43(25)",
+      "GT",
+      "T20",
+      "26 May 26"
+     ],
+     "followUpLinkText": "/live-cricket-scores/155376/rcb-vs-gt-qualifier-1-indian-premier-league-2026"
+    }
+   ]
+  },
+  "recentBowling": {
+   "headers": [
+    "Wickets",
+    "OPPN.",
+    "Format",
+    "Date"
+   ],
+   "rows": [
+    {
+     "values": [
+      "75623",
+      "1-13",
+      "NED",
+      "ODI",
+      "12 Nov 23"
+     ],
+     "followUpLinkText": "/live-cricket-scores/75623/ind-vs-ned-45th-match-icc-cricket-world-cup-2023"
+    },
+    {
+     "values": [
+      "75493",
+      "0-2",
+      "BAN",
+      "ODI",
+      "19 Oct 23"
+     ],
+     "followUpLinkText": "/live-cricket-scores/75493/ind-vs-ban-17th-match-icc-cricket-world-cup-2023"
+    },
+    {
+     "values": [
+      "51222",
+      "0-6",
+      "HKC",
+      "T20I",
+      "31 Aug 22"
+     ],
+     "followUpLinkText": "/live-cricket-scores/51222/ind-vs-hkc-4th-match-group-a-asia-cup-2022"
+    },
+    {
+     "values": [
+      "22782",
+      "DNB & 0-4",
+      "NZ",
+      "Test",
+      "29 Feb 20"
+     ],
+     "followUpLinkText": "/live-cricket-scores/22782/nz-vs-ind-2nd-test-india-tour-of-new-zealand-2020"
+    },
+    {
+     "values": [
+      "22744",
+      "DNB & 0-4",
+      "RSA",
+      "Test",
+      "10 Oct 19"
+     ],
+     "followUpLinkText": "/live-cricket-scores/22744/ind-vs-rsa-2nd-test-south-africa-tour-of-india-2019"
+    }
+   ]
+  }
+ },
+ "playerNews": {
+  "storyList": [
+   {
+    "story": {
+     "id": 139596,
+     "hline": "Talking Points: Rohit answers, Root endures, and India ponder balance",
+     "intro": "With the likes of Rohit, Kohli and Root batting under the bright Lord's sun, it felt wonderfully retro at times, but there was enough funk and enough runs at play to make it a thoroughly post-modern contest",
+     "pubTime": "1784509318602",
+     "source": "Cricbuzz",
+     "storyType": "Match Features",
+     "imageId": 1041225,
+     "seoHeadline": "England vs India, 3rd ODI, Talking Points: Rohit Sharma answers, Joe Root endures, and India ponder balance",
+     "context": "India tour of England, 2026",
+     "coverImage": {
+      "id": "1041225",
+      "caption": "With the likes of Rohit Sharma, Virat Kohli and Joe Root batting under the bright Lord's sun, it felt wonderfully retro at times",
+      "source": "AFP"
+     },
+     "entitlements": {},
+     "adsType": {}
+    }
+   }
+  ],
+  "lastUpdatedTime": "1789737954854",
+  "appIndex": {
+   "seoTitle": "Virat Kohli latest and breaking cricket news - Cricbuzz | Cricbuzz.com",
+   "webURL": "http://www.cricbuzz.com/cricket-team/1413/virat-kohli/news"
+  }
+ },
+ "bio_text": "A spunky, chubby teenager with gelled hair shot to fame after leading India to glory in the Under-19 World Cup at Kuala Lumpur in early 2008. In an Indian team filled with saint-like icons worthy of their own hagiographies, Virat Kohli, with his most un-Indian, 'bad-boy' intensity, would clearly be an outcast.  <br/>  <br/> <b>Grind through the ranks</b> <br/>  <br/> He soon joined the senior Men in Blue in Sri Lanka, come August 2008. In the absence of the regular openers, Virat Kohli was given a chance to open the batting in the ODI series. He played some commendable knocks in his extended run as an opener, as India went on to win the ODI series. However, the established and formidable pair of Tendulkar and Sehwag kept Kohli out of the team  <br/>  <br/> The 20-year-old continued to impress for Delhi and dominated attacks, clearly demonstrating that he belonged at a much higher level; that junior cricket was beneath his standards. Kohli then traveled to Australia in 2009 for the Emerging players tournament and stamped his authority all over the bowling attacks. He added 'big-match temperament' to his résumé too, lacing a fluent hundred in the final against South Africa, and guiding his team to a clinical victory. The young prodigy, barely old enough to receive his man-of-the-match champagne, ended the tournament with 398 runs from 7 outings with two centuries and two fifties, ensuring that he remained fresh in the selectors' minds.  <br/>  <br/> <b>Cementing a national spot</b> <br/>  <br/> The selectors had no choice but to give Kohli another go in the Indian side, and this time he strung together a number of impressive scores. After being given an extended run, he repaid their faith by notching up his maiden ODI hundred in an impressive run-chase against Sri Lanka in December 2009 - his first of many exemplary knocks in run-chases. In the World Cup final of 2011, the biggest stage of them all, Kohli, along with his Delhi teammate Gautam Gambhir, pulled off a largely underrated rescue effort with an 83-run stand after losing the openers early. This knock played a crucial role in setting the platform for MS Dhoni's fabled knock of 91*, which eventually won India the World Cup on that enchanting evening in Mumbai.  <br/>  <br/> In the hangover of the World Cup euphoria, Kohli continued to take giant strides in the limited-overs format. Three years after his ODI debut, he was finally handed the coveted Test cap in the Caribbean islands in July 2011, owing to the need to rest the senior players. After a series each against the Dukes ball and the SG ball, it was now time for his trial against the Kookaburra Down Under. In the first two Tests, he seemed to lack the technique to play in Australia, maintaining his low stance on the bouncy tracks. He also had a rather restricting trigger movement with his front-foot routinely coming across towards off-stump, thereby hindering the necessary movement to play back-foot shots such as the pull and the cut.  <br/>  <br/> <b>A baptism by fire Down Under</b> <br/>  <br/> The selectors and the captain persisted with him going into the 3rd Test, and he delivered a break-through performance on a bouncy Perth wicket - an impressive 75 - where a visible change in technique was visible. He managed to stand tall, with a more open stance, and exhibited the back-foot shots in his repertoire during the course of the innings. The volatile Kohli managed to overshadow his impropriety in conduct with his performance in the final Test of the series. Notching up India's only century of a disastrous tour, Kohli was the shining light in amidst the chaos, as he stroked his way to a hundred in Adelaide exhibiting the will to improve and extraordinary focus under pressure in the searing heat and pressure of Australia. <br/>  <br/> While he grappled and clawed his way into the Test side, he went on a record-breaking spree in ODIs: the Indian record for the fastest to multiples-of-thousand runs in ODIs, culminating in the world record for the fastest to 9000 runs in ODIs. He was also the highest run-scorer for India in ODIs for three consecutive calendar years - 2010, 2011 and 2012 and won the ICC ODI cricketer of the year award in 2012.  <br/>  <br/> <b>That break-through innings…</b> <br/>  <br/> We remember the accolades, but where did it all begin? There's always the one innings that made the world sit up and take notice; the 86-ball knock which he started off as a brash boy, but ended as a man. Chasing an improbable target of 321 off 40 overs to stay alive in the tournament, he laid into the Sri Lankan bowlers and carted his way to 133*, getting India home with more than 2 overs to spare, practically pulling them out of the airport after M.S. Dhoni rather ignorantly remarked that India had already been eliminated from the tournament.  <br/>  <br/> King Kohli had arrived. The king of the run-chase, and a plethora of ODI records in the modern age. <br/>  <br/> <b>Batting technique and idiosyncrasies</b> <br/>  <br/> Kohli has a seemingly hot head on his shoulders, but he channels all his anger while he is batting. Known to be an aggressive batsman always on the lookout for runs, he has a fairly sound , albeit slightly unconventional technique, which makes him judge the length of the ball earlier than most, and amazingly quick wrists to run his hands through the ball, even against fast bowlers. He is equally adept against pace and spin, and never looks ungainly at the crease. With nimble foot-movement against the spinners, he is known to be quite destructive when the situation demands it. He has had to fill some rather big shoes of his predecessors, and has done an admirable job to say the least.  <br/>  <br/> <b>Captaincy and a change in technique</b> <br/>  <br/> With regular captain MS Dhoni ailing from an injury, Kohli was named stand-in captain for the first Test at Adelaide. After an abysmal tour of England, critics were sceptical of Kohli's performance in Australia in the Border-Gavaskar trophy in December. Kohli proved that they couldn't have been more wrong, as he scored two fluent hundreds in the first Test at Adelaide. His second innings masterclass of 141 almost pulled off a stunning run-chase on a notorious 5th day rank-turner, and went on to score a total of four hundreds on this tour. Saying that he had silenced critics would be an understatement. <br/>  <br/> As India prepared for their title defence ahead of the 2015 World Cup Down Under, with the catch phrase 'Won't give it back' doing the rounds, Virat Kohli was touted to be a key performer for India. The Indians had a terrible run in Australia, having failed to win a single match in the Test series as well as the succeeding ODI tri-series. Kohli started off in signature fashion, with a typically stroke-filled hundred against Pakistan as India maintained their unbeaten run against their arch-rivals in ICC events. As India stormed into the semi-finals unbeaten, Kohli's form continued to take an uncharacteristic dip, culminating in a painstaking 1 in the semi-final loss against the co-hosts and eventual champions, Australia.  <br/>  <br/> Kohli, the then full-time Test captain, toured Sri Lanka with a young side without the services of Mahendra Singh Dhoni, wary of the Sri Lankan spinners' fabled 4th innings con-job. After losing the first Test, Kohli's India recorded a dramatic come-from-behind win in the series, going on to win 2-1. Kohli continued to build on his auspicious start to Test captaincy as he led them to a rout of the South Africans on a series of rank-turners all around India. He had a quiet series with the bat, as the more stoic batsmen of his team took over. Nonetheless, the triumph took India to the No. 1 spot in the ICC Test rankings for the first time since they forfeited it to England after the forgettable white-wash in 2011.  <br/>  <br/> He continued his emphatic run in T20 cricket (and running) like a man possessed though, thrashing boundaries with ridiculous ease. Despite an 89* in the 2016  semi-final against the West Indies (extending his inhuman run of form in the format), India's bowling panicked at a crucial stage. One had to feel sorry for him as he had to make do with the 'Player of the tournament' award for the second successive Twenty20 World Cup; a distinction he would've gladly exchanged for the elusive World T20 trophy. Kohli's thirst for runs showed no signs of slowing down as he looted a small matter of 973 runs during the 2016 edition of the Indian Premier League, the most (by far) by any batsman in the history of the tournament - as he led his Royal Challengers Bangalore (RCB) franchise to a runners-up finish.  <br/>  <br/> However, it isn't beyond Kohli to prove his critics wrong yet again, as he continues to take criticism on his stride, setting new standards for modern batsmanship. And as a captain, he had his ups and downs, marred with a bit of controversy towards the end of his tenure. Kohli also became the first Indian, as well as the first Asian captain, to return victorious from Down Under when India won the 4-match Test series 2-1 (2018-19). Under Kohli, India also emerged as the number one Test side for five successive years (2016-2021). <br/>  <br/> <b>The final frontier</b> <br/>  <br/> In the first week of 2018, Kohli went on to lead India in South Africa, a few weeks after he tied the knot with Indian actress and long-time girlfriend, Anushka Sharma. India went on to concede the series in the first two Tests, but came back to win the third Test match on a difficult wicket. In a series full of difficult wickets, Kohli exhibited tighter technique than he had in England, and batted better than he did in his more prolific tour of South Africa in 2013/14. Kohli went on to conquer his (personal) final frontier in England later in 2018 too, scoring 593 runs in 10 innings, including 2 hundreds, and not conceding his wicket to his fabled nemesis, Anderson, even once. India went on to lose the series 1-4, and Kohli's record as captain was tainted by two consecutive Test series losses away.  <br/>  <br/> Nevertheless, on a personal level, he had left no stone unturned to transform himself into the most consistent and versatile batsman of his age, and arguably the better of the Big Four. In October 2018, during the second of 3 consecutive hundreds against the West Indies in ODIs, he went on to become the fastest batsmen to reach the 10,000-run mark in ODIs, trouncing Sachin Tendulkar by a staggering 54 innings. Despite arguments about the two new balls, better bats, batting-friendly conditions, and more lethal bowlers, it was difficult to deny that this was a statistical outlier, very much along the lines of 99.94 - perhaps unlikely to ever be trounced.   <br/>  <br/> However, being a cricket romantic (as we all are), as we reflect on his prolific international career (and with a plethora of records to be broken over the next decade) one must look back at the CB series knock that changed it all. On that fateful night at Hobart, Kohli had not only kept his team in contention, he had actually dragged a drained Indian side out of the airport. That night, at the Bellerive Oval, Virat Kohli transcended into a league of his own to etch his name in history - and a cricketing superstar was born. <br/>  <br/> <b>A slump in form</b> <br/> In 2020 came the pandemic, and along with that an unexpected slump in form for Virat Kohli. He has a poor IPL season in 2020 and 2021, and his International records also weren’t very flattering. From April 2019 to September, 2022, Virat Kohli didn’t score a single International century. He seemed to be faltering against spin, particularly in home Test matches and has often spoken publicly about this being the lowest phase of his life.  <br/>  <br/> In this same phase, Virat Kohli stepped down as the T20I captain after the 2021 World Cup, where India suffered a group stage exit. He has asked to relinquish the ODI captaincy as well, with Rohit Sharma being named as his successor. A few months later, after a series defeat away to South Africa, Virat Kohli decided to step down as Test captain as well, with Rohit Sharma being named as his successor once again.  <br/>  <br/> <b>The redemption arc</b> <br/> Form is temporary, class is permanent. While there were a few murmured calls to drop Kohli during this challenging phase, he kept his place in the Indian team across formats and eventually silenced his critics. In September, 2022, Virat Kohli finally broke his four year jinx and got a century against Afghanistan in the Asia Cup. He carried that form into the 2022 T20 World Cup, where he played an unreal knock in the group stages against Pakistan, giving India an unlikely win over their rivals, glamourised by that straight six off Haris Rauf’s bowling. While India lost in the semi-finals, Kohli ended the tournament as India’s leading run scorer.  <br/>  <br/> Kohli carried that form onto the next year as well, where he played a few match winning knocks against Australia and South Africa in the build-up to the 2023 ODI World Cup. He also scored a century against Pakistan in the Asia Cup as India picked up a formidable win. Kohli elevated his game once again at that World Cup, as he got centuries against Bangladesh and South Africa in the group stages, to add to four fifties as well.  <br/>  <br/> In the semi-final against New Zealand, Kohli overtook Sachin Tendulkar as he became the first player in history to score 50 ODI hundreds. India lost out to Australia in the final, but Kohli was named player of the tournament for his incredible performances that saw him score 765 runs at an average of 95.63.  <br/>  <br/> Post the World Cup defeat, Kohli took a bit of a break from the game for personal reasons. However, he came roaring back in the 2024 IPL as he ended with the Orange Cap. Owing to his form, he was expected to be India’s marquee man at the 2024 T20 World Cup, which started a couple of weeks after the culmination of the IPL.  <br/>  <br/> Kohli though surprisingly struggled through the group stages of that tournament, as he failed to register even a single fifty. However, he had saved his best for the big occasion as he stepped up in the final against South Africa, top scoring for India with 76. His efforts ensured that India won a thrilling final, ending a 11 year trophy jinx. After that World Cup triumph, Virat Kohli announced his retirement from T20I cricket.  <br/>  <br/> Virat Kohli faced a bit of a slump once again post the World Cup success, as he had an underwhelming ODI tour to Sri Lanka, and struggled in the home Tests against New Zealand as well, as India suffered a 3-0 whitewash at the hands of the Kiwis. Next up after that debilitating series loss was a tour to Australia, where Kohli showed his mantle once again with a sensational century at Perth, as India won the first Test.  <br/>  <br/> Unfortunately, Kohli and the rest of the team struggled post that Test, as India went down 3-1 against Australia, ending their chances of qualifying for the Test championship final.  <br/>  <br/> After this disappointment Down Under, India turned their attention towards the 2025 Champions Trophy. Kohli found his mojo once again in his most preferred ODI format, as he scored a century against Pakistan and a fifty against Australia as India claimed a second ICC trophy in a span of 9 months.  <br/>  <br/> In May, 2025, Virat Kohli unexpectedly announced his retirement from Test cricket, following suit from teammate Rohit Sharma who decided to step down a few days earlier. Kohli drew the curtains on an illustrious Test career that saw his score 9230 runs at an average of 46.85.  <br/>  <br/>  <br/> <b>IPL through the years</b> <br/>  <br/> Ahead of the 2019 edition of the Indian Premier League (IPL), Virat Kohli showed how much faith he had in the franchise by declaring that he would perhaps end his career with the Bangalore-based Royal Challengers. The only player to be a part of a single franchise for the entire duration of the tournament (right from the start of the cash-rich league in 2008), Kohli has developed an affection with the franchise and with the fans over the period of time.  <br/>  <br/> Having been brought into the franchise as a young emerging player in 2008, Kohli's growth has been stupendous. He learnt under the wings of Rahul Dravid and Anil Kumble, before finally establishing himself under Daniel Vettori. It wasn't a free-flowing start, in a team that was struggling to find the essence of the tournament, it wasn't a surprise that they had a struggling youngster in the midst. Having learnt the ropes in the first three-year cycle, it wasn't a surprise that he was the only player retained in 2011. The purple patch began somewhere around that region, he then proved it wasn't just a purple patch, it was a career that was beginning to flourish. Soon after, Kohli became the best in all aspects, not just white-ball cricket, but in the red-ball version as well. <br/>  <br/> It became a no-brainer when he was asked to captain the Bangalore franchise on a permanent basis from 2012 and it also translated into more consistency with the bat. Kohli soon turned into a fan favourite even as runs flowed from his bat and eventually becoming the leading-run scorer in the history of IPL. Circa, 2016 - the India and RCB captain blasted 973 runs - the most by any player in the history of the game and it included four hundreds - the most by a batsman in a single edition.  Alas, all this didn't translate into a title triumph - one that has kept Kohli and Bangalore waiting so far (As of March 2023). <br/>  <br/> Written by <b>Rishi Roy</b>"
+}

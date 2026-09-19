@@ -1,0 +1,239 @@
+{
+ "matchHeader": {
+  "matchId": 170120,
+  "matchDescription": "3rd T20I",
+  "matchFormat": "T20",
+  "matchType": "International",
+  "complete": true,
+  "domestic": false,
+  "matchStartTimestamp": 1789653600000,
+  "matchCompleteTimestamp": 1789664815406,
+  "dayNight": true,
+  "year": 2026,
+  "state": "Complete",
+  "status": "Afghanistan opt to bowl",
+  "tossResults": {
+   "tossWinnerId": 96,
+   "tossWinnerName": "Afghanistan",
+   "decision": "Bowling"
+  },
+  "result": {
+   "resultType": "win",
+   "winningTeam": "India",
+   "winningteamId": 2,
+   "winningMargin": 127,
+   "winByRuns": true,
+   "winByInnings": false
+  },
+  "revisedTarget": {},
+  "playersOfTheMatch": [
+   {
+    "id": 12086,
+    "name": "Abhishek Sharma",
+    "fullName": "Abhishek Sharma",
+    "nickName": "Abhishek Sharma",
+    "captain": false,
+    "keeper": false,
+    "substitute": false,
+    "teamId": 0,
+    "teamName": "India",
+    "faceImageId": 846031
+   }
+  ],
+  "playersOfTheSeries": [
+   {
+    "id": 12086,
+    "name": "Abhishek Sharma",
+    "fullName": "Abhishek Sharma",
+    "nickName": "Abhishek Sharma",
+    "captain": false,
+    "keeper": false,
+    "substitute": false,
+    "teamId": 0,
+    "teamName": "India",
+    "faceImageId": 846031
+   }
+  ],
+  "matchTeamInfo": [
+   {
+    "battingTeamId": 2,
+    "battingTeamShortName": "IND",
+    "bowlingTeamId": 96,
+    "bowlingTeamShortName": "AFG"
+   },
+   {
+    "battingTeamId": 96,
+    "battingTeamShortName": "AFG",
+    "bowlingTeamId": 2,
+    "bowlingTeamShortName": "IND"
+   }
+  ],
+  "isMatchNotCovered": false,
+  "team1": {
+   "id": 96,
+   "name": "Afghanistan",
+   "playerDetails": [],
+   "shortName": "AFG"
+  },
+  "team2": {
+   "id": 2,
+   "name": "India",
+   "playerDetails": [],
+   "shortName": "IND"
+  },
+  "seriesDesc": "Afghanistan vs India in India 2026",
+  "venue": {
+   "id": 51,
+   "name": "Arun Jaitley Stadium",
+   "city": "Delhi",
+   "country": "India",
+   "timezone": "+05:30",
+   "latitude": "28.637891",
+   "longitude": "77.243073"
+  },
+  "seriesId": 12973,
+  "seriesName": "Afghanistan vs India in India 2026",
+  "alertType": "auto",
+  "livestreamEnabled": false
+ },
+ "miniscore": {
+  "inningsId": 2,
+  "batsmanStriker": {
+   "batBalls": 2,
+   "batDots": 2,
+   "batFours": 0,
+   "batId": 14282,
+   "batName": "Fazalhaq Farooqi",
+   "batMins": 6,
+   "batRuns": 0,
+   "batSixes": 0,
+   "batStrikeRate": 0
+  },
+  "batsmanNonStriker": {
+   "batBalls": 0,
+   "batDots": 0,
+   "batFours": 0,
+   "batId": 0,
+   "batName": "",
+   "batMins": 0,
+   "batRuns": 0,
+   "batStrikeRate": 0
+  },
+  "batTeam": {
+   "teamId": 96,
+   "teamScore": 94,
+   "teamWkts": 10
+  },
+  "bowlerStriker": {
+   "bowlId": 14659,
+   "bowlName": "Ravi Bishnoi",
+   "bowlMaidens": 0,
+   "bowlNoballs": 0,
+   "bowlOvs": 3.1,
+   "bowlRuns": 26,
+   "bowlWides": 3,
+   "bowlWkts": 3,
+   "bowlEcon": 8.21
+  },
+  "bowlerNonStriker": {
+   "bowlId": 14701,
+   "bowlName": "Nitish Kumar Reddy",
+   "bowlMaidens": 0,
+   "bowlNoballs": 0,
+   "bowlOvs": 4,
+   "bowlRuns": 25,
+   "bowlWides": 0,
+   "bowlWkts": 3,
+   "bowlEcon": 6.25
+  },
+  "overs": 14.1,
+  "recentOvsStats": "... Wd 1 1 W 0  | 0 0 4 0 1 0  | W",
+  "target": 222,
+  "partnerShip": {
+   "balls": 8,
+   "runs": 5
+  },
+  "currentRunRate": 6.64,
+  "requiredRunRate": 0,
+  "lastWicket": "Abdullah Ahmadzai  c Axar Patel b Ravi Bishnoi 6(8)  - 94/10 in 14.1 ov.",
+  "matchScoreDetails": {
+   "matchId": 170120,
+   "inningsScoreList": [
+    {
+     "inningsId": 2,
+     "batTeamId": 96,
+     "batTeamName": "AFG",
+     "score": 94,
+     "wickets": 10,
+     "overs": 14.1,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 85
+    },
+    {
+     "inningsId": 1,
+     "batTeamId": 2,
+     "batTeamName": "IND",
+     "score": 221,
+     "wickets": 7,
+     "overs": 19.6,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 120
+    }
+   ],
+   "tossResults": {
+    "tossWinnerId": 96,
+    "tossWinnerName": "Afghanistan",
+    "decision": "Bowling"
+   },
+   "matchTeamInfo": [
+    {
+     "battingTeamId": 2,
+     "battingTeamShortName": "IND",
+     "bowlingTeamId": 96,
+     "bowlingTeamShortName": "AFG"
+    },
+    {
+     "battingTeamId": 96,
+     "battingTeamShortName": "AFG",
+     "bowlingTeamId": 2,
+     "bowlingTeamShortName": "IND"
+    }
+   ],
+   "isMatchNotCovered": false,
+   "matchFormat": "T20",
+   "state": "Complete",
+   "customStatus": "India won by 127 runs",
+   "highlightedTeamId": 2
+  },
+  "latestPerformance": [
+   {
+    "runs": 19,
+    "wkts": 5,
+    "label": "Last 5 overs"
+   },
+   {
+    "runs": 13,
+    "wkts": 4,
+    "label": "Last 3 overs"
+   }
+  ],
+  "ppData": {
+   "pp_1": {
+    "ppId": 2,
+    "ppOversFrom": 0.1,
+    "ppOversTo": 6,
+    "ppType": "Mandatory",
+    "runsScored": 51
+   }
+  },
+  "overSummaryList": [],
+  "status": "India won by 127 runs",
+  "lastWicketScore": 6,
+  "remRunsToWin": 0,
+  "responseLastUpdated": 1789738079,
+  "event": "WICKET",
+  "timestamp": 1789664770683
+ }
+}

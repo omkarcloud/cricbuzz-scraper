@@ -1,0 +1,988 @@
+{
+ "filters": [
+  {
+   "value": "matchType",
+   "label": "Format",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "1",
+     "label": "Test International",
+     "shortName": "Test"
+    },
+    {
+     "value": "2",
+     "label": "One Day International (ODI)",
+     "shortName": "ODI"
+    },
+    {
+     "value": "3",
+     "label": "T20 International (T20I)",
+     "shortName": "T20I"
+    }
+   ]
+  },
+  {
+   "value": "seriesType",
+   "label": "Tournaments",
+   "inputType": "SINGLE_SELECT",
+   "options": [
+    {
+     "value": "IPL",
+     "label": "Indian Premier League",
+     "shortName": "IPL"
+    }
+   ]
+  },
+  {
+   "value": "team",
+   "label": "Played For",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "2",
+     "label": "India",
+     "shortName": "IND",
+     "imageId": 776162
+    },
+    {
+     "value": "59",
+     "label": "Royal Challengers Bengaluru",
+     "shortName": "RCB",
+     "imageId": 860056
+    }
+   ]
+  },
+  {
+   "value": "opponent",
+   "label": "Opponents",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "5",
+     "label": "Sri Lanka",
+     "shortName": "SL",
+     "imageId": 776254
+    },
+    {
+     "value": "3",
+     "label": "Pakistan",
+     "shortName": "PAK",
+     "imageId": 776308
+    },
+    {
+     "value": "4",
+     "label": "Australia",
+     "shortName": "AUS",
+     "imageId": 776202
+    },
+    {
+     "value": "10",
+     "label": "West Indies",
+     "shortName": "WI",
+     "imageId": 776191
+    },
+    {
+     "value": "6",
+     "label": "Bangladesh",
+     "shortName": "BAN",
+     "imageId": 776210
+    },
+    {
+     "value": "11",
+     "label": "South Africa",
+     "shortName": "RSA",
+     "imageId": 776287
+    },
+    {
+     "value": "12",
+     "label": "Zimbabwe",
+     "shortName": "ZIM",
+     "imageId": 776198
+    },
+    {
+     "value": "9",
+     "label": "England",
+     "shortName": "ENG",
+     "imageId": 776237
+    },
+    {
+     "value": "13",
+     "label": "New Zealand",
+     "shortName": "NZ",
+     "imageId": 776333
+    },
+    {
+     "value": "27",
+     "label": "Ireland",
+     "shortName": "IRE",
+     "imageId": 839366
+    },
+    {
+     "value": "24",
+     "label": "Netherlands",
+     "shortName": "NED",
+     "imageId": 776335
+    },
+    {
+     "value": "58",
+     "label": "Chennai Super Kings",
+     "shortName": "CSK",
+     "imageId": 860038
+    },
+    {
+     "value": "64",
+     "label": "Rajasthan Royals",
+     "shortName": "RR",
+     "imageId": 860055
+    },
+    {
+     "value": "62",
+     "label": "Mumbai Indians",
+     "shortName": "MI",
+     "imageId": 860053
+    },
+    {
+     "value": "60",
+     "label": "Deccan Chargers",
+     "shortName": "DCG",
+     "imageId": 172162
+    },
+    {
+     "value": "65",
+     "label": "Punjab Kings",
+     "shortName": "PBKS",
+     "imageId": 860084
+    },
+    {
+     "value": "61",
+     "label": "Delhi Capitals",
+     "shortName": "DC",
+     "imageId": 860040
+    },
+    {
+     "value": "63",
+     "label": "Kolkata Knight Riders",
+     "shortName": "KKR",
+     "imageId": 860046
+    },
+    {
+     "value": "184",
+     "label": "Kochi Tuskers Kerala",
+     "shortName": "KTK",
+     "imageId": 172243
+    },
+    {
+     "value": "183",
+     "label": "Pune Warriors",
+     "shortName": "PWI",
+     "imageId": 172242
+    },
+    {
+     "value": "96",
+     "label": "Afghanistan",
+     "shortName": "AFG",
+     "imageId": 776177
+    },
+    {
+     "value": "255",
+     "label": "Sunrisers Hyderabad",
+     "shortName": "SRH",
+     "imageId": 860066
+    },
+    {
+     "value": "7",
+     "label": "United Arab Emirates",
+     "shortName": "UAE",
+     "imageId": 776242
+    },
+    {
+     "value": "346",
+     "label": "Rising Pune Supergiant",
+     "shortName": "RPS",
+     "imageId": 226175
+    },
+    {
+     "value": "345",
+     "label": "Gujarat Lions",
+     "shortName": "GL",
+     "imageId": 226174
+    },
+    {
+     "value": "23",
+     "label": "Scotland",
+     "shortName": "SCO",
+     "imageId": 776280
+    },
+    {
+     "value": "161",
+     "label": "Namibia",
+     "shortName": "NAM",
+     "imageId": 776326
+    },
+    {
+     "value": "966",
+     "label": "Lucknow Super Giants",
+     "shortName": "LSG",
+     "imageId": 882545
+    },
+    {
+     "value": "971",
+     "label": "Gujarat Titans",
+     "shortName": "GT",
+     "imageId": 860068
+    },
+    {
+     "value": "8",
+     "label": "Hong Kong, China",
+     "shortName": "HKC",
+     "imageId": 776271
+    },
+    {
+     "value": "72",
+     "label": "Nepal",
+     "shortName": "NEP",
+     "imageId": 776331
+    },
+    {
+     "value": "15",
+     "label": "United States of America",
+     "shortName": "USA",
+     "imageId": 776186
+    },
+    {
+     "value": "26",
+     "label": "Canada",
+     "shortName": "CAN",
+     "imageId": 776227
+    }
+   ]
+  },
+  {
+   "value": "venueId",
+   "label": "Venues",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "128",
+     "label": "Shere Bangla National Stadium",
+     "shortName": "Dhaka"
+    },
+    {
+     "value": "27",
+     "label": "M.Chinnaswamy Stadium",
+     "shortName": "Bengaluru"
+    },
+    {
+     "value": "51",
+     "label": "Arun Jaitley Stadium",
+     "shortName": "Delhi"
+    },
+    {
+     "value": "228",
+     "label": "Vidarbha Cricket Association Stadium",
+     "shortName": "Nagpur"
+    },
+    {
+     "value": "11",
+     "label": "MA Chidambaram Stadium",
+     "shortName": "Chennai"
+    },
+    {
+     "value": "151",
+     "label": "Narendra Modi Stadium A Ground",
+     "shortName": "Ahmedabad"
+    },
+    {
+     "value": "46",
+     "label": "Punjab Cricket Association IS Bindra Stadium",
+     "shortName": "Mohali"
+    },
+    {
+     "value": "81",
+     "label": "Wankhede Stadium",
+     "shortName": "Mumbai"
+    },
+    {
+     "value": "70",
+     "label": "Queens Sports Club",
+     "shortName": "Bulawayo"
+    },
+    {
+     "value": "69",
+     "label": "Harare Sports Club",
+     "shortName": "Harare"
+    },
+    {
+     "value": "13",
+     "label": "Rangiri Dambulla International Stadium",
+     "shortName": "Dambulla"
+    },
+    {
+     "value": "15",
+     "label": "R.Premadasa Stadium",
+     "shortName": "Colombo"
+    },
+    {
+     "value": "75",
+     "label": "SuperSport Park",
+     "shortName": "Centurion"
+    },
+    {
+     "value": "88",
+     "label": "The Wanderers Stadium",
+     "shortName": "Johannesburg"
+    },
+    {
+     "value": "79",
+     "label": "Reliance Stadium",
+     "shortName": "Vadodara"
+    },
+    {
+     "value": "132",
+     "label": "Dr DY Patil Sports Academy",
+     "shortName": "Navi Mumbai "
+    },
+    {
+     "value": "78",
+     "label": "Madhavrao Scindia Cricket Ground",
+     "shortName": "Rajkot"
+    },
+    {
+     "value": "31",
+     "label": "Eden Gardens",
+     "shortName": "Kolkata"
+    },
+    {
+     "value": "76",
+     "label": "Sawai Mansingh Stadium",
+     "shortName": "Jaipur"
+    },
+    {
+     "value": "115",
+     "label": "Captain Roop Singh Stadium",
+     "shortName": "Gwalior"
+    },
+    {
+     "value": "50",
+     "label": "Narendra Modi Stadium",
+     "shortName": "Ahmedabad"
+    },
+    {
+     "value": "154",
+     "label": "ACA-VDCA Cricket Stadium",
+     "shortName": "Visakhapatnam"
+    },
+    {
+     "value": "273",
+     "label": "Moses Mabhida Stadium",
+     "shortName": "Durban"
+    },
+    {
+     "value": "74",
+     "label": "Kingsmead",
+     "shortName": "Durban"
+    },
+    {
+     "value": "52",
+     "label": "Newlands",
+     "shortName": "Cape Town"
+    },
+    {
+     "value": "73",
+     "label": "St George's Park",
+     "shortName": "Gqeberha"
+    },
+    {
+     "value": "85",
+     "label": "Nehru Stadium",
+     "shortName": "Guwahati"
+    },
+    {
+     "value": "65",
+     "label": "Emirates Old Trafford",
+     "shortName": "Manchester"
+    },
+    {
+     "value": "60",
+     "label": "Riverside Ground",
+     "shortName": "Chester-le-Street"
+    },
+    {
+     "value": "21",
+     "label": "The Rose Bowl",
+     "shortName": "Southampton"
+    },
+    {
+     "value": "12",
+     "label": "Kennington Oval",
+     "shortName": "London"
+    },
+    {
+     "value": "19",
+     "label": "Lord's",
+     "shortName": "London"
+    },
+    {
+     "value": "62",
+     "label": "Sophia Gardens",
+     "shortName": "Cardiff"
+    },
+    {
+     "value": "54",
+     "label": "Queen's Park Oval",
+     "shortName": "Port of Spain, Trinidad"
+    },
+    {
+     "value": "109",
+     "label": "Sir Vivian Richards Stadium",
+     "shortName": "North Sound, Antigua"
+    },
+    {
+     "value": "57",
+     "label": "Sabina Park",
+     "shortName": "Kingston, Jamaica"
+    },
+    {
+     "value": "55",
+     "label": "Kensington Oval",
+     "shortName": "Bridgetown, Barbados"
+    },
+    {
+     "value": "106",
+     "label": "Windsor Park",
+     "shortName": "Roseau, Dominica"
+    },
+    {
+     "value": "47",
+     "label": "Nehru Stadium",
+     "shortName": "Kochi"
+    },
+    {
+     "value": "80",
+     "label": "Rajiv Gandhi International Stadium",
+     "shortName": "Hyderabad"
+    },
+    {
+     "value": "155",
+     "label": "Himachal Pradesh Cricket Association Stadium",
+     "shortName": "Dharamsala"
+    },
+    {
+     "value": "10",
+     "label": "Brabourne Stadium",
+     "shortName": "Mumbai"
+    },
+    {
+     "value": "87",
+     "label": "Melbourne Cricket Ground",
+     "shortName": "Melbourne"
+    },
+    {
+     "value": "34",
+     "label": "Sydney Cricket Ground",
+     "shortName": "Sydney"
+    },
+    {
+     "value": "38",
+     "label": "W.A.C.A. Ground",
+     "shortName": "Perth"
+    },
+    {
+     "value": "40",
+     "label": "Adelaide Oval",
+     "shortName": "Adelaide"
+    },
+    {
+     "value": "286",
+     "label": "Stadium Australia",
+     "shortName": "Homebush Bay, Sydney"
+    },
+    {
+     "value": "35",
+     "label": "The Gabba",
+     "shortName": "Brisbane"
+    },
+    {
+     "value": "39",
+     "label": "Bellerive Oval",
+     "shortName": "Hobart"
+    },
+    {
+     "value": "103",
+     "label": "Barabati Stadium",
+     "shortName": "Cuttack"
+    },
+    {
+     "value": "152",
+     "label": "Holkar Stadium",
+     "shortName": "Indore"
+    },
+    {
+     "value": "287",
+     "label": "Maharashtra Cricket Association Stadium",
+     "shortName": "Pune"
+    },
+    {
+     "value": "255",
+     "label": "Mahinda Rajapaksa International Stadium",
+     "shortName": "Hambantota"
+    },
+    {
+     "value": "254",
+     "label": "Pallekele International Cricket Stadium",
+     "shortName": "Pallekele"
+    },
+    {
+     "value": "290",
+     "label": "Niranjan Shah Stadium, Khandheri",
+     "shortName": "Rajkot"
+    },
+    {
+     "value": "291",
+     "label": "JSCA International Stadium Complex",
+     "shortName": "Ranchi"
+    },
+    {
+     "value": "20",
+     "label": "Edgbaston",
+     "shortName": "Birmingham"
+    },
+    {
+     "value": "100",
+     "label": "Seddon Park",
+     "shortName": "Hamilton"
+    },
+    {
+     "value": "41",
+     "label": "Eden Park",
+     "shortName": "Auckland"
+    },
+    {
+     "value": "44",
+     "label": "McLean Park",
+     "shortName": "Napier"
+    },
+    {
+     "value": "42",
+     "label": "Sky Stadium",
+     "shortName": "Wellington"
+    },
+    {
+     "value": "45",
+     "label": "Basin Reserve",
+     "shortName": "Wellington"
+    },
+    {
+     "value": "18",
+     "label": "Trent Bridge",
+     "shortName": "Nottingham"
+    },
+    {
+     "value": "66",
+     "label": "Headingley",
+     "shortName": "Leeds"
+    },
+    {
+     "value": "32",
+     "label": "Green Park",
+     "shortName": "Kanpur"
+    },
+    {
+     "value": "294",
+     "label": "New Wanderers No. 1 Oval",
+     "shortName": "Johannesburg"
+    },
+    {
+     "value": "92",
+     "label": "Khan Shaheb Osman Ali Stadium",
+     "shortName": "Fatullah"
+    },
+    {
+     "value": "140",
+     "label": "Sharjah Cricket Stadium",
+     "shortName": "Sharjah"
+    },
+    {
+     "value": "153",
+     "label": "Dubai International Cricket Stadium",
+     "shortName": "Dubai"
+    },
+    {
+     "value": "94",
+     "label": "Sheikh Zayed Stadium",
+     "shortName": "Abu Dhabi"
+    },
+    {
+     "value": "113",
+     "label": "Galle International Stadium",
+     "shortName": "Galle"
+    },
+    {
+     "value": "71",
+     "label": "P Sara Oval",
+     "shortName": "Colombo"
+    },
+    {
+     "value": "14",
+     "label": "Sinhalese Sports Club",
+     "shortName": "Colombo"
+    },
+    {
+     "value": "123",
+     "label": "Manuka Oval",
+     "shortName": "Canberra"
+    },
+    {
+     "value": "335",
+     "label": "Shaheed Veer Narayan Singh International Stadium",
+     "shortName": "Raipur"
+    },
+    {
+     "value": "59",
+     "label": "Daren Sammy National Cricket Stadium",
+     "shortName": "Gros Islet, St Lucia"
+    },
+    {
+     "value": "29",
+     "label": "Vidarbha Cricket Association Ground",
+     "shortName": "Nagpur"
+    },
+    {
+     "value": "270",
+     "label": "Central Broward Regional Park Stadium Turf Ground",
+     "shortName": "Lauderhill, Florida"
+    },
+    {
+     "value": "380",
+     "label": "Barsapara Cricket Stadium",
+     "shortName": "Guwahati"
+    },
+    {
+     "value": "63",
+     "label": "County Ground",
+     "shortName": "Bristol"
+    },
+    {
+     "value": "506",
+     "label": "Greenfield International Stadium",
+     "shortName": "Thiruvananthapuram"
+    },
+    {
+     "value": "370",
+     "label": "The Village",
+     "shortName": "Dublin"
+    },
+    {
+     "value": "512",
+     "label": "Perth Stadium",
+     "shortName": "Perth"
+    },
+    {
+     "value": "393",
+     "label": "Bay Oval",
+     "shortName": "Mount Maunganui"
+    },
+    {
+     "value": "371",
+     "label": "Hagley Oval",
+     "shortName": "Christchurch"
+    },
+    {
+     "value": "110",
+     "label": "Providence Stadium",
+     "shortName": "Guyana"
+    },
+    {
+     "value": "485",
+     "label": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+     "shortName": "Lucknow"
+    },
+    {
+     "value": "207",
+     "label": "Boland Park",
+     "shortName": "Paarl"
+    },
+    {
+     "value": "93",
+     "label": "Bir Sreshtho Flight Lieutenant Matiur Rahman Stadium",
+     "shortName": "Chattogram"
+    },
+    {
+     "value": "1811",
+     "label": "Nassau County International Cricket Stadium",
+     "shortName": "New York"
+    },
+    {
+     "value": "851",
+     "label": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+     "shortName": "New Chandigarh"
+    },
+    {
+     "value": "1843",
+     "label": "BCA Stadium, Kotambi",
+     "shortName": "Vadodara"
+    }
+   ]
+  },
+  {
+   "value": "year",
+   "label": "Year",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "2008",
+     "label": "2008"
+    },
+    {
+     "value": "2009",
+     "label": "2009"
+    },
+    {
+     "value": "2010",
+     "label": "2010"
+    },
+    {
+     "value": "2011",
+     "label": "2011"
+    },
+    {
+     "value": "2012",
+     "label": "2012"
+    },
+    {
+     "value": "2013",
+     "label": "2013"
+    },
+    {
+     "value": "2014",
+     "label": "2014"
+    },
+    {
+     "value": "2015",
+     "label": "2015"
+    },
+    {
+     "value": "2016",
+     "label": "2016"
+    },
+    {
+     "value": "2017",
+     "label": "2017"
+    },
+    {
+     "value": "2018",
+     "label": "2018"
+    },
+    {
+     "value": "2019",
+     "label": "2019"
+    },
+    {
+     "value": "2020",
+     "label": "2020"
+    },
+    {
+     "value": "2021",
+     "label": "2021"
+    },
+    {
+     "value": "2022",
+     "label": "2022"
+    },
+    {
+     "value": "2023",
+     "label": "2023"
+    },
+    {
+     "value": "2024",
+     "label": "2024"
+    },
+    {
+     "value": "2025",
+     "label": "2025"
+    },
+    {
+     "value": "2026",
+     "label": "2026"
+    }
+   ]
+  }
+ ],
+ "sort": {
+  "key1": "sortField",
+  "key2": "sortDirection",
+  "label": "Sort By",
+  "options": [
+   {
+    "value1": "date",
+    "value2": "DESC",
+    "label": "Newest",
+    "isDefault": true
+   },
+   {
+    "value1": "date",
+    "value2": "ASC",
+    "label": "Oldest"
+   },
+   {
+    "value1": "wickets",
+    "value2": "DESC",
+    "label": "Most Wickets"
+   },
+   {
+    "value1": "wickets",
+    "value2": "ASC",
+    "label": "Least Wickets"
+   },
+   {
+    "value1": "economy",
+    "value2": "DESC",
+    "label": "Highest Economy"
+   },
+   {
+    "value1": "economy",
+    "value2": "ASC",
+    "label": "Lowest Economy"
+   },
+   {
+    "value1": "overs",
+    "value2": "DESC",
+    "label": "Most Overs"
+   },
+   {
+    "value1": "overs",
+    "value2": "ASC",
+    "label": "Least Overs"
+   },
+   {
+    "value1": "maidens",
+    "value2": "DESC",
+    "label": "Most Maidens"
+   },
+   {
+    "value1": "maidens",
+    "value2": "ASC",
+    "label": "Least Maidens"
+   }
+  ]
+ },
+ "playerID": "1413",
+ "playerName": "Virat Kohli",
+ "playerImageID": "616517",
+ "appIndex": {
+  "seoTitle": "Explore all of Virat Kohli's bowling performances across formats:",
+  "shareLink": "https://www.cricbuzz.com/profiles/1413/virat-kohli/all-matches/bowling"
+ },
+ "summary": {
+  "headers": [],
+  "values": []
+ },
+ "headers": [
+  "Wickets",
+  "OPPN.",
+  "Format",
+  "Venue",
+  "Date",
+  "Economy",
+  "Overs",
+  "Maidens"
+ ],
+ "rows": [
+  {
+   "values": [
+    "75623",
+    "1-13",
+    "NED",
+    "ODI",
+    "Bengaluru",
+    "12 Nov 23",
+    "4.3",
+    "3",
+    "0"
+   ],
+   "seriesId": 6732,
+   "followUpLinkText": "/live-cricket-scores/75623/ind-vs-ned-45th-match-icc-cricket-world-cup-2023"
+  },
+  {
+   "values": [
+    "75493",
+    "0-2",
+    "BAN",
+    "ODI",
+    "Pune",
+    "19 Oct 23",
+    "6.6",
+    "0.3",
+    "0"
+   ],
+   "seriesId": 6732,
+   "followUpLinkText": "/live-cricket-scores/75493/ind-vs-ban-17th-match-icc-cricket-world-cup-2023"
+  }
+ ],
+ "seriesMap": [
+  {
+   "seriesID": 6732,
+   "seriesName": "ICC Cricket World Cup 2023"
+  },
+  {
+   "seriesID": 4499,
+   "seriesName": "Asia Cup, 2022"
+  },
+  {
+   "seriesID": 2852,
+   "seriesName": "India tour of New Zealand, 2020"
+  },
+  {
+   "seriesID": 2845,
+   "seriesName": "South Africa tour of India, 2019"
+  },
+  {
+   "seriesID": 2637,
+   "seriesName": "Sri Lanka tour of India, 2017"
+  },
+  {
+   "seriesID": 2597,
+   "seriesName": "India tour of Sri Lanka, 2017"
+  },
+  {
+   "seriesID": 2466,
+   "seriesName": "ICC Champions Trophy, 2017"
+  },
+  {
+   "seriesID": 2430,
+   "seriesName": "Indian Premier League, 2016"
+  },
+  {
+   "seriesID": 2263,
+   "seriesName": "ICC World T20, 2016"
+  },
+  {
+   "seriesID": 2352,
+   "seriesName": "India tour of Australia, 2016"
+  },
+  {
+   "seriesID": 2359,
+   "seriesName": "South Africa tour of India, 2015"
+  },
+  {
+   "seriesID": 2280,
+   "seriesName": "India tour of Bangladesh, 2015"
+  },
+  {
+   "seriesID": 2330,
+   "seriesName": "Indian Premier League 2015"
+  },
+  {
+   "seriesID": 2223,
+   "seriesName": "ICC Cricket World Cup 2015"
+  },
+  {
+   "seriesID": 2315,
+   "seriesName": "Sri Lanka tour of India, 2014"
+  }
+ ],
+ "disclaimer": "Includes International, IPL and WPL data as of now.",
+ "nextDate": "2015-03-26",
+ "pageNumber": "2"
+}

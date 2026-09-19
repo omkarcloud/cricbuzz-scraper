@@ -1,0 +1,172 @@
+[
+ {
+  "inningsID": 1,
+  "batTeamId": 4,
+  "batTeamName": "Australia",
+  "batTeamShortName": "AUS",
+  "partnershipDataDTO": [
+   {
+    "bat1Id": 6250,
+    "bat1Name": "Mitchell Marsh",
+    "bat1Runs": 53,
+    "bat1balls": 63,
+    "bat1ImageID": 845760,
+    "bat2Id": 8497,
+    "bat2Name": "Travis Head",
+    "bat2Runs": 73,
+    "bat2balls": 51,
+    "bat2ImageID": 845768,
+    "totalRuns": 130,
+    "totalBalls": 114
+   },
+   {
+    "bat1Id": 15927,
+    "bat1Name": "Cooper Connolly",
+    "bat1Runs": 21,
+    "bat1balls": 20,
+    "bat1ImageID": 845942,
+    "bat2Id": 8497,
+    "bat2Name": "Travis Head",
+    "bat2Runs": 39,
+    "bat2balls": 33,
+    "bat2ImageID": 845768,
+    "totalRuns": 60,
+    "totalBalls": 53
+   },
+   {
+    "bat1Id": 15927,
+    "bat1Name": "Cooper Connolly",
+    "bat1Runs": 15,
+    "bat1balls": 18,
+    "bat1ImageID": 845942,
+    "bat2Id": 10637,
+    "bat2Name": "Josh Inglis",
+    "bat2Runs": 21,
+    "bat2balls": 20,
+    "bat2ImageID": 845950,
+    "totalRuns": 39,
+    "totalBalls": 38
+   },
+   {
+    "bat1Id": 15927,
+    "bat1Name": "Cooper Connolly",
+    "bat1Runs": 36,
+    "bat1balls": 25,
+    "bat1ImageID": 845942,
+    "bat2Id": 9200,
+    "bat2Name": "Carey",
+    "bat2Runs": 20,
+    "bat2balls": 30,
+    "bat2ImageID": 619880,
+    "totalRuns": 57,
+    "totalBalls": 55
+   },
+   {
+    "bat1Id": 15927,
+    "bat1Name": "Cooper Connolly",
+    "bat1Runs": 6,
+    "bat1balls": 6,
+    "bat1ImageID": 845942,
+    "bat2Id": 10055,
+    "bat2Name": "Matt Renshaw",
+    "bat2Runs": 5,
+    "bat2balls": 5,
+    "bat2ImageID": 845941,
+    "totalRuns": 11,
+    "totalBalls": 11
+   },
+   {
+    "bat1Id": 55281,
+    "bat1Name": "Oliver Peake",
+    "bat1Runs": 13,
+    "bat1balls": 8,
+    "bat1ImageID": 822683,
+    "bat2Id": 10055,
+    "bat2Name": "Matt Renshaw",
+    "bat2Runs": 10,
+    "bat2balls": 6,
+    "bat2ImageID": 845941,
+    "totalRuns": 24,
+    "totalBalls": 14
+   },
+   {
+    "bat1Id": 55281,
+    "bat1Name": "Oliver Peake",
+    "bat1Runs": 28,
+    "bat1balls": 10,
+    "bat1ImageID": 822683,
+    "bat2Id": 15480,
+    "bat2Name": "Nathan Ellis",
+    "bat2Runs": 6,
+    "bat2balls": 5,
+    "bat2ImageID": 845764,
+    "totalRuns": 35,
+    "totalBalls": 15
+   }
+  ]
+ },
+ {
+  "inningsID": 2,
+  "batTeamId": 12,
+  "batTeamName": "Zimbabwe",
+  "batTeamShortName": "ZIM",
+  "partnershipDataDTO": [
+   {
+    "bat1Id": 23616,
+    "bat1Name": "Brian Bennett",
+    "bat1Runs": 23,
+    "bat1balls": 34,
+    "bat1ImageID": 847114,
+    "bat2Id": 13957,
+    "bat2Name": "Ben Curran",
+    "bat2Runs": 22,
+    "bat2balls": 37,
+    "bat2ImageID": 699403,
+    "totalRuns": 46,
+    "totalBalls": 71
+   },
+   {
+    "bat1Id": 12319,
+    "bat1Name": "Innocent Kaia",
+    "bat1Runs": 5,
+    "bat1balls": 12,
+    "bat1ImageID": 182026,
+    "bat2Id": 13957,
+    "bat2Name": "Ben Curran",
+    "bat2Runs": 8,
+    "bat2balls": 9,
+    "bat2ImageID": 699403,
+    "totalRuns": 14,
+    "totalBalls": 21
+   },
+   {
+    "bat1Id": 12319,
+    "bat1Name": "Innocent Kaia",
+    "bat1Runs": 29,
+    "bat1balls": 35,
+    "bat1ImageID": 182026,
+    "bat2Id": 180,
+    "bat2Name": "Brendan Taylor",
+    "bat2Runs": 23,
+    "bat2balls": 21,
+    "bat2ImageID": 847132,
+    "totalRuns": 55,
+    "totalBalls": 56
+   },
+   {
+    "bat1Id": 6334,
+    "bat1Name": "Ervine",
+    "bat1Runs": 9,
+    "bat1balls": 12,
+    "bat1ImageID": 582337,
+    "bat2Id": 180,
+    "bat2Name": "Brendan Taylor",
+    "bat2Runs": 12,
+    "bat2balls": 11,
+    "bat2ImageID": 847132,
+    "totalRuns": 21,
+    "totalBalls": 23
+   }
+  ]
+ }
+]

@@ -1,0 +1,294 @@
+{
+ "auctionPlayersList": [
+  {
+   "id": 36879,
+   "playerId": 10420,
+   "basePrice": "--",
+   "auctionPrice": "2.40 Cr",
+   "playsFor": 64,
+   "auctionStatus": "traded",
+   "updatedTime": "1773148659",
+   "playerName": "Sam Curran",
+   "country": "England",
+   "role": "Allrounder",
+   "season": "ipl-2026",
+   "playerImageId": 848527,
+   "playerIntro": [
+    "Currently rated as one of the best all-rounders in T20 cricket",
+    "Reliable death bowler",
+    "A powerful striker, can bat anywhere in the top 7"
+   ],
+   "playsForTeam": "RR",
+   "teamImageId": 860055,
+   "cappedStatus": "CAPPED",
+   "countryId": 9,
+   "isPlayerOverseas": true,
+   "totalEarnings": "--"
+  },
+  {
+   "id": 33084,
+   "playerId": 9441,
+   "basePrice": "2.00 Cr",
+   "auctionPrice": "2.00 Cr",
+   "playsFor": 61,
+   "auctionStatus": "sold",
+   "updatedTime": "1765899655",
+   "playerName": "Kyle Jamieson",
+   "country": "New Zealand",
+   "role": "Bowler",
+   "season": "ipl-2026",
+   "playerImageId": 845508,
+   "playerIntro": [
+    "Swings the new ball and generates extra bounce",
+    "Best of 6/7 in T20s",
+    "Can be used as an attacking option with bat"
+   ],
+   "playsForTeam": "DC",
+   "teamImageId": 860040,
+   "cappedStatus": "CAPPED",
+   "countryId": 13,
+   "isPlayerOverseas": true,
+   "totalEarnings": "--"
+  }
+ ],
+ "currentStatus": "Auction completed",
+ "auctionTitle": "IPL Auction 2026",
+ "filters": [
+  {
+   "key": "countryId",
+   "label": "Country",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "2",
+     "label": "India",
+     "imageId": 776162
+    },
+    {
+     "value": "3",
+     "label": "Pakistan",
+     "imageId": 776308
+    },
+    {
+     "value": "4",
+     "label": "Australia",
+     "imageId": 776202
+    },
+    {
+     "value": "5",
+     "label": "Sri Lanka",
+     "imageId": 776254
+    },
+    {
+     "value": "6",
+     "label": "Bangladesh",
+     "imageId": 776210
+    },
+    {
+     "value": "9",
+     "label": "England",
+     "imageId": 776237
+    },
+    {
+     "value": "10",
+     "label": "West Indies",
+     "imageId": 776191
+    },
+    {
+     "value": "11",
+     "label": "South Africa",
+     "imageId": 776287
+    },
+    {
+     "value": "12",
+     "label": "Zimbabwe",
+     "imageId": 776198
+    },
+    {
+     "value": "13",
+     "label": "New Zealand",
+     "imageId": 776333
+    },
+    {
+     "value": "27",
+     "label": "Ireland",
+     "imageId": 839366
+    },
+    {
+     "value": "96",
+     "label": "Afghanistan",
+     "imageId": 776177
+    }
+   ]
+  },
+  {
+   "key": "cap",
+   "label": "Cap",
+   "inputType": "SINGLE_SELECT",
+   "options": [
+    {
+     "value": "Capped",
+     "label": "Capped"
+    },
+    {
+     "value": "Uncapped",
+     "label": "Uncapped"
+    }
+   ]
+  },
+  {
+   "key": "role",
+   "label": "Role",
+   "inputType": "SINGLE_SELECT",
+   "options": [
+    {
+     "value": "Batter",
+     "label": "Batter"
+    },
+    {
+     "value": "Bowler",
+     "label": "Bowler"
+    },
+    {
+     "value": "Allrounder",
+     "label": "All Rounder"
+    },
+    {
+     "value": "WK-Batter",
+     "label": "WK Batter"
+    }
+   ]
+  },
+  {
+   "key": "teamId",
+   "label": "Team",
+   "inputType": "SINGLE_SELECT",
+   "options": [
+    {
+     "value": "58",
+     "label": "Chennai Super Kings",
+     "imageId": 860038
+    },
+    {
+     "value": "63",
+     "label": "Kolkata Knight Riders",
+     "imageId": 860046
+    },
+    {
+     "value": "61",
+     "label": "Delhi Capitals",
+     "imageId": 860040
+    },
+    {
+     "value": "971",
+     "label": "Gujarat Titans",
+     "imageId": 860068
+    },
+    {
+     "value": "966",
+     "label": "Lucknow Super Giants",
+     "imageId": 882545
+    },
+    {
+     "value": "62",
+     "label": "Mumbai Indians",
+     "imageId": 860053
+    },
+    {
+     "value": "65",
+     "label": "Punjab Kings",
+     "imageId": 860084
+    },
+    {
+     "value": "59",
+     "label": "Royal Challengers Bengaluru",
+     "imageId": 860056
+    },
+    {
+     "value": "64",
+     "label": "Rajasthan Royals",
+     "imageId": 860055
+    },
+    {
+     "value": "255",
+     "label": "Sunrisers Hyderabad",
+     "imageId": 860066
+    }
+   ]
+  },
+  {
+   "key": "status",
+   "label": "Status",
+   "inputType": "MULTI_SELECT",
+   "options": [
+    {
+     "value": "Sold",
+     "label": "Sold"
+    },
+    {
+     "value": "Unsold",
+     "label": "Unsold"
+    },
+    {
+     "value": "Retained",
+     "label": "Retained"
+    },
+    {
+     "value": "RTM",
+     "label": "RTM"
+    },
+    {
+     "value": "Drafted",
+     "label": "Drafted"
+    },
+    {
+     "value": "Replacement",
+     "label": "Replacement"
+    },
+    {
+     "value": "Traded",
+     "label": "Traded"
+    }
+   ]
+  }
+ ],
+ "sort": {
+  "key1": "sortField",
+  "key2": "sortDirection",
+  "label": "Sort",
+  "options": [
+   {
+    "value1": "apl.updated_at",
+    "value2": "DESC",
+    "label": "Recent",
+    "isDefault": true,
+    "isSelected": true
+   },
+   {
+    "value1": "apl.is_editor_pick",
+    "value2": "DESC",
+    "label": "Featured Picks"
+   },
+   {
+    "value1": "apl.base_price",
+    "value2": "DESC",
+    "label": "Base Price: High to Low"
+   },
+   {
+    "value1": "apl.base_price",
+    "value2": "ASC",
+    "label": "Base Price: Low to High"
+   },
+   {
+    "value1": "apl.auction_price",
+    "value2": "DESC",
+    "label": "Final Price: High to Low"
+   },
+   {
+    "value1": "apl.auction_price",
+    "value2": "ASC",
+    "label": "Final Price: Low to High"
+   }
+  ]
+ }
+}

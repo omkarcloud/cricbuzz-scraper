@@ -1,0 +1,164 @@
+{
+ "data": {
+  "runsChartData": [
+   {
+    "over": 0,
+    "team1": 0,
+    "team2": 0,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": [],
+    "team2WicketCommentary": [],
+    "tooltipText": "Over 0 | AUS: 0 • ZIM: 0"
+   },
+   {
+    "over": 1,
+    "team1": 4,
+    "team2": 1,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 1 | AUS: 4-0 • ZIM: 1-0"
+   },
+   {
+    "over": 2,
+    "team1": 11,
+    "team2": 4,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 2 | AUS: 11-0 • ZIM: 4-0"
+   }
+  ],
+  "runRateChartData": [
+   {
+    "over": 0,
+    "team1": 0,
+    "team2": 0,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": [],
+    "team2WicketCommentary": [],
+    "tooltipText": "Over 0 | AUS: 0 • ZIM: 0"
+   },
+   {
+    "over": 1,
+    "team1": 4,
+    "team2": 1,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 1 | AUS: 4 • ZIM: 1"
+   },
+   {
+    "over": 2,
+    "team1": 5.5,
+    "team2": 2,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 2 | AUS: 5.5 • ZIM: 2"
+   }
+  ],
+  "runsPerOverChartData": [
+   {
+    "over": 1,
+    "team1": 4,
+    "team2": 1,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 1 | AUS: 4 • ZIM: 1"
+   },
+   {
+    "over": 2,
+    "team1": 7,
+    "team2": 3,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 2 | AUS: 7 • ZIM: 3"
+   },
+   {
+    "over": 3,
+    "team1": 6,
+    "team2": 8,
+    "isTeam1Wicket": false,
+    "isTeam2Wicket": false,
+    "team1WicketCommentary": "",
+    "team2WicketCommentary": "",
+    "tooltipText": "Over 3 | AUS: 6 • ZIM: 8"
+   }
+  ],
+  "winProbabilityChartData": {
+   "1": [
+    {
+     "over": 0,
+     "team1": 50,
+     "team2": 50,
+     "isTeam1Wicket": false,
+     "isTeam2Wicket": false,
+     "team1WicketCommentary": [],
+     "team2WicketCommentary": [],
+     "tooltipText": "Over 0 | AUS: 50% • ZIM: 50%",
+     "innings": 1,
+     "draw": 0
+    }
+   ]
+  },
+  "winProbabilityHorizontalChartData": {},
+  "wicketOvers": [
+   12,
+   16,
+   25
+  ],
+  "winProbabilityChartLegends": {
+   "team1": {
+    "team": {
+     "teamId": 12,
+     "teamName": "Zimbabwe",
+     "teamSName": "ZIM",
+     "imageId": 776198,
+     "teamColor": "#E85454|#E85454"
+    }
+   },
+   "team2": {
+    "team": {
+     "teamId": 4,
+     "teamName": "Australia",
+     "teamSName": "AUS",
+     "imageId": 776202,
+     "teamColor": "#DF9916|#F6B53C"
+    }
+   }
+  },
+  "innings": [
+   {
+    "inningsId": 2,
+    "teamId": 12,
+    "teamName": "Zimbabwe",
+    "teamShortName": "ZIM",
+    "teamColor": "#E85454|#E85454",
+    "label": "ZIM (2nd Inn)"
+   },
+   {
+    "inningsId": 1,
+    "teamId": 4,
+    "teamName": "Australia",
+    "teamShortName": "AUS",
+    "teamColor": "#DF9916|#F6B53C",
+    "label": "AUS (1st Inn)"
+   }
+  ]
+ },
+ "team1Color": "#DF9916",
+ "team2Color": "#E85454",
+ "team1Name": "AUS",
+ "team2Name": "ZIM"
+}

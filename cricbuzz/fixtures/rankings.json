@@ -1,0 +1,93 @@
+{
+ "categoryType": "batsmen",
+ "formatTypesData": {
+  "odi": {
+   "rank": [
+    {
+     "id": "11808",
+     "rank": "1",
+     "name": "Shubman Gill",
+     "matches": null,
+     "rating": "801",
+     "points": "801",
+     "country": "India",
+     "trend": "Flat",
+     "imageId": null,
+     "faceImageId": "616515"
+    },
+    {
+     "id": "10713",
+     "rank": "2",
+     "name": "Daryl Mitchell",
+     "matches": null,
+     "rating": "794",
+     "points": "794",
+     "country": "New Zealand",
+     "trend": "Flat",
+     "imageId": null,
+     "faceImageId": "845511"
+    }
+   ]
+  },
+  "test": {
+   "rank": [
+    {
+     "id": "12201",
+     "rank": "1",
+     "name": "Harry Brook",
+     "matches": null,
+     "rating": "861",
+     "points": "861",
+     "country": "England",
+     "trend": "Flat",
+     "imageId": null,
+     "faceImageId": "848570"
+    },
+    {
+     "id": "2250",
+     "rank": "2",
+     "name": "Steven Smith",
+     "matches": null,
+     "rating": "840",
+     "points": "840",
+     "country": "Australia",
+     "trend": "Flat",
+     "imageId": null,
+     "faceImageId": "619873"
+    }
+   ]
+  },
+  "t20": {
+   "rank": [
+    {
+     "id": "10276",
+     "rank": "1",
+     "name": "Ishan Kishan",
+     "matches": null,
+     "rating": "913",
+     "points": "913",
+     "country": "India",
+     "trend": "Flat",
+     "imageId": null,
+     "faceImageId": "846036"
+    },
+    {
+     "id": "12086",
+     "rank": "2",
+     "name": "Abhishek Sharma",
+     "matches": null,
+     "rating": "862",
+     "points": "862",
+     "country": "India",
+     "trend": "Up",
+     "imageId": null,
+     "faceImageId": "846031"
+    }
+   ]
+  }
+ },
+ "gender": "men",
+ "isTeamsCategory": false,
+ "isWomen": false,
+ "initialFormatType": "test"
+}

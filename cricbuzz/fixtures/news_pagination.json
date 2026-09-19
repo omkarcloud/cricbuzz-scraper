@@ -1,0 +1,47 @@
+{
+ "paginatedData": [
+  {
+   "id": 140215,
+   "context": "Women's Asian Games, 2026",
+   "headline": "Shree Charani spins India into the semifinals",
+   "intro": "Hosts Japan folded for a measly 57 after being put in to bat  \n",
+   "publishedTime": "6h ago",
+   "storyType": "Reports",
+   "isCbPlusContent": false,
+   "isPremiumFree": false,
+   "imageDetails": {
+    "imageId": 1078727,
+    "alt": "shree-charani-spins-india-into-the-semifinals",
+    "src": "imagesrc",
+    "w": 100,
+    "h": 80,
+    "aspect": "16:9",
+    "imageType": "det",
+    "priority": false
+   },
+   "isNewsPage": true
+  },
+  {
+   "id": 140214,
+   "context": "Women's Asian Games 2026",
+   "headline": "Athapaththu, Dilhari fire Sri Lanka into Asian Games semifinal",
+   "intro": "Set a target of 160, Malaysia crawled to 74 for 7 in their 20 overs",
+   "publishedTime": "8h ago",
+   "storyType": "News",
+   "isCbPlusContent": false,
+   "isPremiumFree": false,
+   "imageDetails": {
+    "imageId": 1078681,
+    "alt": "athapaththu-dilhari-fire-sri-lanka-into-asian-games-semifinal",
+    "src": "imagesrc",
+    "w": 100,
+    "h": 80,
+    "aspect": "16:9",
+    "imageType": "det",
+    "priority": false
+   },
+   "isNewsPage": true
+  }
+ ],
+ "nextPaginationURL": "/api/cricket-news/140206/1"
+}

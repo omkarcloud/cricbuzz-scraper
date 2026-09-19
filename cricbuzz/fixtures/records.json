@@ -1,0 +1,139 @@
+{
+ "matchTypes": [
+  {
+   "matchTypeId": "1",
+   "matchTypeDesc": "test"
+  },
+  {
+   "matchTypeId": "2",
+   "matchTypeDesc": "odi"
+  },
+  {
+   "matchTypeId": "3",
+   "matchTypeDesc": "t20"
+  }
+ ],
+ "teams": [
+  {
+   "teamShortName": "all",
+   "id": "all"
+  },
+  {
+   "id": "2",
+   "teamShortName": "IND"
+  },
+  {
+   "id": "27",
+   "teamShortName": "IRE"
+  }
+ ],
+ "opponentTeams": [
+  {
+   "teamShortName": "all",
+   "id": "all"
+  },
+  {
+   "id": "2",
+   "teamShortName": "IND"
+  },
+  {
+   "id": "27",
+   "teamShortName": "IRE"
+  }
+ ],
+ "years": [
+  "all",
+  "2026",
+  "2025"
+ ],
+ "mobileHeaders": [
+  "PLAYER",
+  "M",
+  "I",
+  "R",
+  "AVG",
+  "SR",
+  "4s",
+  "6s"
+ ],
+ "mobileValues": [
+  [
+   "25",
+   "Sachin Tendulkar",
+   "200",
+   "329",
+   "15921",
+   "53.79",
+   "54.08",
+   "2058",
+   "69"
+  ],
+  [
+   "8019",
+   "Joe Root",
+   "169",
+   "309",
+   "14278",
+   "50.45",
+   "57.61",
+   "1537",
+   "46"
+  ],
+  [
+   "38",
+   "Ricky Ponting",
+   "168",
+   "287",
+   "13378",
+   "51.85",
+   "58.72",
+   "1509",
+   "73"
+  ]
+ ],
+ "webHeaders": [
+  "PLAYER",
+  "MATCHES",
+  "INNS",
+  "RUNS",
+  "AVG",
+  "SR",
+  "4s",
+  "6s"
+ ],
+ "webValues": [
+  [
+   "25",
+   "Sachin Tendulkar",
+   "200",
+   "329",
+   "15921",
+   "53.79",
+   "54.08",
+   "2058",
+   "69"
+  ],
+  [
+   "8019",
+   "Joe Root",
+   "169",
+   "309",
+   "14278",
+   "50.45",
+   "57.61",
+   "1537",
+   "46"
+  ],
+  [
+   "38",
+   "Ricky Ponting",
+   "168",
+   "287",
+   "13378",
+   "51.85",
+   "58.72",
+   "1509",
+   "73"
+  ]
+ ]
+}

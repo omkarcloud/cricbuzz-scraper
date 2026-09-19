@@ -1,0 +1,26 @@
+{
+ "squads": [
+  {
+   "squadType": "ODI",
+   "isHeader": true
+  },
+  {
+   "squadId": 128680,
+   "squadType": "Zimbabwe",
+   "imageId": 776198,
+   "teamId": 12
+  },
+  {
+   "squadId": 128690,
+   "squadType": "Australia",
+   "imageId": 776202,
+   "teamId": 4
+  }
+ ],
+ "appIndex": {
+  "seoTitle": "Squads - Australia tour of Zimbabwe 2026 - Cricbuzz | Cricbuzz.com",
+  "webURL": "www.cricbuzz.com/cricket-series/"
+ },
+ "seriesName": "Australia tour of Zimbabwe 2026",
+ "seriesId": 11997
+}

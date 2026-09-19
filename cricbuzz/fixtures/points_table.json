@@ -1,0 +1,169 @@
+{
+ "lastUpdated": 1779710987000,
+ "legends": [
+  {
+   "key": "PTS",
+   "value": "Points"
+  },
+  {
+   "key": "NRR",
+   "value": "Net Run Rate"
+  },
+  {
+   "key": "Q",
+   "value": "Qualified"
+  },
+  {
+   "key": "E",
+   "value": "Eliminated"
+  },
+  {
+   "key": "P",
+   "value": "Matches played"
+  },
+  {
+   "key": "W",
+   "value": "Matches won"
+  },
+  {
+   "key": "L",
+   "value": "Matches lost"
+  },
+  {
+   "key": "NR",
+   "value": "No Result"
+  },
+  {
+   "key": "D",
+   "value": "Disqualified"
+  }
+ ],
+ "tournamentRules": [
+  {
+   "header": "Points Summary",
+   "values": [
+    "2 points for a win (either through normal time or after superover / s)",
+    "0 points for a loss",
+    "1 point for a NR",
+    "Top 4 qualify for the playoffs",
+    "The winner of QF 1 qualifies directly to the finals; the loser moves to QF 2",
+    "The 3rd and 4th placed teams feature in the Eliminator; the winner qualifes for QF 2; the loser is eliminated",
+    "The winner of Eliminator faces the loser of QF1; the winner qualifies to the final",
+    "Final"
+   ]
+  },
+  {
+   "header": "Format",
+   "values": [
+    "A total of 74 matches with each franchise playing 14 games in a home and away fashion (7 games each)",
+    "Teams are grouped in a set of seven each according to previous performances and rankings",
+    "With the total number of matches being capped at 74, all teams don't play each other twice",
+    "A team plays 5 of its opponents twice while they face the remaining 4 opponents once in every cycle",
+    "A team can play its home matches at one designated venue or multiple venues"
+   ]
+  },
+  {
+   "header": "Impact player rule",
+   "values": [
+    "Each team is allowed to use a designated impact player at any stage of the game",
+    "The impact player should be amongst the 5 players named in the playing sheet",
+    "The named impact player usually replaces another player who has already batted / bowled",
+    "Impact players are also used in terms of tactics / collapses (batting / bowling)",
+    "The player who has been replaced will play no further role in the match",
+    "In case of an overseas impact player, the said player can only feature if the team has announced 3 or less overseas players in their first XI"
+   ]
+  },
+  {
+   "header": "Overseas players",
+   "values": [
+    "A maximum of 8 overseas players can be bought during the auctions",
+    "A maximum of 4 overseas players can feature in a match",
+    "In the event of an impact sub, an overseas player can be used only if 3 or less players have beeen named in the original playing XI",
+    "At no time, more than 4 overseas players can be on the field (including substitutes)"
+   ]
+  },
+  {
+   "header": "Tie and Super Over",
+   "values": [
+    "The match is declared as a tie in the case of both teams finishing with the same score at the end of the match",
+    "The result of the match is then determined through a super over",
+    "The team that batted second during the regulation time will get to bat first",
+    "Both teams nominate three batters each and a bowler for the super over",
+    "The innings is considered closed after one over / in the event of the batting team losing two wickets",
+    "In the case of scores being level, the two teams get to play another super over with the playing conditions reversed",
+    "The dismissed batters of the previous super over and the bowler used cannot be repeated under any conditions",
+    "The super overs continue until a result is obtained / the match goes past the scheduled close",
+    "In the case of time elapsement, the match ends in a tie and both teams get 1 point each"
+   ]
+  },
+  {
+   "header": "Net run-rate rules",
+   "values": [
+    "In the event of two or more teams having the same number of points at the end of the league phase",
+    "a) The first differentiator is the number of wins",
+    "b) In case of equal number of wins, the NRR comes into play and the team with a better NRR is placed higher",
+    "c) In the case of an equal NRR, the team with the better bowling strike-rate will get a higher placing",
+    "d) In case of a tie, the positions are decided on a random draw"
+   ]
+  }
+ ],
+ "seriesId": 9241,
+ "seriesName": "Indian Premier League 2026",
+ "match_type": "T20",
+ "pointsTable": [
+  {
+   "groupName": "Teams",
+   "no_of_qual": 4,
+   "pointsTableInfo": [
+    {
+     "teamFullName": "Royal Challengers Bengaluru",
+     "teamName": "RCB",
+     "teamId": 59,
+     "matchesPlayed": 14,
+     "matchesWon": 9,
+     "matchesLost": 5,
+     "matchesTied": 0,
+     "noRes": 0,
+     "matchesDrawn": 0,
+     "nrr": "+0.783",
+     "points": 18,
+     "teamMatches": [
+      {
+       "winner": 59,
+       "matchId": 149618,
+       "matchName": "1st Match",
+       "opponent": "Sunrisers Hyderabad",
+       "result": "Won by 6 wkts",
+       "opponentSName": "SRH",
+       "opponentId": 255,
+       "opponentImageId": 860066,
+       "nrrChanges": "+2.907",
+       "startdt": 1774706400000
+      },
+      {
+       "winner": 59,
+       "matchId": 149721,
+       "matchName": "11th Match",
+       "opponent": "Chennai Super Kings",
+       "result": "Won by 43 runs",
+       "opponentSName": "CSK",
+       "opponentId": 58,
+       "opponentImageId": 860038,
+       "nrrChanges": "-0.406",
+       "startdt": 1775397600000
+      }
+     ],
+     "form": [
+      "W",
+      "W",
+      "L",
+      "W",
+      "W"
+     ],
+     "teamQualifyStatus": "Q",
+     "teamImageId": 860056
+    }
+   ]
+  }
+ ]
+}

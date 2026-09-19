@@ -1,0 +1,272 @@
+{
+ "venueId": "69",
+ "venueDetails": {
+  "ground": "Harare Sports Club",
+  "city": "Harare",
+  "country": "Zimbabwe",
+  "timezone": "+02:00",
+  "capacity": "10,000",
+  "knownAs": "Salisbury Sports Club",
+  "ends": "City End, Club House End",
+  "homeTeam": "Rhodesia, Zimbabwe, Mashonaland",
+  "floodlights": true,
+  "imageUrl": "/i/stats/fth/540x303/venue/images/69.jpg",
+  "imageId": "1046215"
+ },
+ "venueTestStats": {
+  "teamHs": [
+   {
+    "team": {
+     "id": 11,
+     "name": "South Africa",
+     "shortName": "RSA"
+    },
+    "opponent": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "runs": 600,
+    "wickets": 3,
+    "overs": 139,
+    "matchId": 5566,
+    "startdt": "2001-09-07"
+   }
+  ],
+  "teamLs": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 13,
+     "name": "New Zealand",
+     "shortName": "NZ"
+    },
+    "runs": 59,
+    "wickets": 10,
+    "overs": 29.4,
+    "matchId": 4295,
+    "startdt": "2005-08-07"
+   }
+  ],
+  "hsChased": [
+   {
+    "team": {
+     "id": 3,
+     "name": "Pakistan",
+     "shortName": "PAK"
+    },
+    "opponent": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "runs": 192,
+    "wickets": 7,
+    "overs": 53.5,
+    "matchId": 6263,
+    "startdt": "1998-03-21"
+   }
+  ],
+  "lsDefended": [
+   {
+    "team": {
+     "id": 2,
+     "name": "India",
+     "shortName": "IND"
+    },
+    "opponent": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "runs": 173,
+    "wickets": 10,
+    "overs": 56.4,
+    "matchId": 6278,
+    "startdt": "1998-10-07"
+   }
+  ],
+  "totalMatches": 41,
+  "batFirstWon": 18,
+  "bowlFirstWon": 14,
+  "avgFirstInnsScore": "318",
+  "avgSecondInnsScore": "314",
+  "avgThirdInnsScore": "242",
+  "avgFourthInnsScore": "147"
+ },
+ "venueOdiStats": {
+  "teamHs": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 15,
+     "name": "United States of America",
+     "shortName": "USA"
+    },
+    "runs": 408,
+    "wickets": 6,
+    "overs": 50,
+    "matchId": 71705,
+    "startdt": "2023-06-26"
+   }
+  ],
+  "teamLs": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 5,
+     "name": "Sri Lanka",
+     "shortName": "SL"
+    },
+    "runs": 35,
+    "wickets": 10,
+    "overs": 18,
+    "matchId": 4686,
+    "startdt": "2004-04-25"
+   }
+  ],
+  "hsChased": [
+   {
+    "team": {
+     "id": 11,
+     "name": "South Africa",
+     "shortName": "RSA"
+    },
+    "opponent": {
+     "id": 4,
+     "name": "Australia",
+     "shortName": "AUS"
+    },
+    "runs": 328,
+    "wickets": 3,
+    "overs": 46.4,
+    "matchId": 13725,
+    "startdt": "2014-08-27"
+   }
+  ],
+  "lsDefended": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 96,
+     "name": "Afghanistan",
+     "shortName": "AFG"
+    },
+    "runs": 129,
+    "wickets": 10,
+    "overs": 32.4,
+    "matchId": 18007,
+    "startdt": "2017-02-21"
+   }
+  ],
+  "totalMatches": 209,
+  "batFirstWon": 95,
+  "bowlFirstWon": 108,
+  "avgFirstInnsScore": "230",
+  "avgSecondInnsScore": "196",
+  "avgThirdInnsScore": "",
+  "avgFourthInnsScore": ""
+ },
+ "venueT20Stats": {
+  "teamHs": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 529,
+     "name": "Botswana",
+     "shortName": "BW"
+    },
+    "runs": 259,
+    "wickets": 5,
+    "overs": 20,
+    "matchId": 134810,
+    "startdt": "2025-09-28"
+   }
+  ],
+  "teamLs": [
+   {
+    "team": {
+     "id": 553,
+     "name": "Malawi",
+     "shortName": "MWI"
+    },
+    "opponent": {
+     "id": 161,
+     "name": "Namibia",
+     "shortName": "NAM"
+    },
+    "runs": 71,
+    "wickets": 10,
+    "overs": 16.2,
+    "matchId": 134843,
+    "startdt": "2025-09-30"
+   }
+  ],
+  "hsChased": [
+   {
+    "team": {
+     "id": 6,
+     "name": "Bangladesh",
+     "shortName": "BAN"
+    },
+    "opponent": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "runs": 194,
+    "wickets": 5,
+    "overs": 19.2,
+    "matchId": 36577,
+    "startdt": "2021-07-25"
+   }
+  ],
+  "lsDefended": [
+   {
+    "team": {
+     "id": 12,
+     "name": "Zimbabwe",
+     "shortName": "ZIM"
+    },
+    "opponent": {
+     "id": 27,
+     "name": "Ireland",
+     "shortName": "IRE"
+    },
+    "runs": 77,
+    "wickets": 5,
+    "overs": 9,
+    "matchId": 112490,
+    "startdt": "2025-02-22"
+   }
+  ],
+  "totalMatches": 86,
+  "batFirstWon": 47,
+  "bowlFirstWon": 37,
+  "avgFirstInnsScore": "156",
+  "avgSecondInnsScore": "133",
+  "avgThirdInnsScore": "",
+  "avgFourthInnsScore": ""
+ },
+ "hideMatchTab": true
+}

@@ -1,0 +1,367 @@
+{
+ "matchCommentary": {
+  "1789738006878": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "Cooper Connolly to Brendan Taylor, no run, angled in, flatter one",
+   "inningsId": 2,
+   "event": [
+    "none",
+    "all"
+   ],
+   "ballMetric": 28.3,
+   "teamName": "ZIM",
+   "timestamp": 1789738006878,
+   "overSeparator": null,
+   "batsmanDetails": {
+    "playerId": 180,
+    "playerName": "Brendan Taylor"
+   },
+   "bowlerDetails": {
+    "playerId": 15927,
+    "playerName": "Cooper Connolly"
+   }
+  },
+  "1789737974042": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "Cooper Connolly to Ervine, 3 runs, flatter one, outside off, the batter reverse paddles it behind square for a couple. The man from deep cover runs to his right, dives and stops it",
+   "inningsId": 2,
+   "event": [
+    "none",
+    "all"
+   ],
+   "ballMetric": 28.2,
+   "teamName": "ZIM",
+   "timestamp": 1789737974042,
+   "overSeparator": null,
+   "batsmanDetails": {
+    "playerId": 6334,
+    "playerName": "Craig Ervine"
+   },
+   "bowlerDetails": {
+    "playerId": 15927,
+    "playerName": "Cooper Connolly"
+   }
+  },
+  "1789737929392": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "Cooper Connolly to Brendan Taylor, 1 run, hangs back and stabs the ball down to deep mid for a single as the ball angled in",
+   "inningsId": 2,
+   "event": [
+    "none",
+    "all"
+   ],
+   "ballMetric": 28.1,
+   "teamName": "ZIM",
+   "timestamp": 1789737929392,
+   "overSeparator": null,
+   "batsmanDetails": {
+    "playerId": 180,
+    "playerName": "Brendan Taylor"
+   },
+   "bowlerDetails": {
+    "playerId": 15927,
+    "playerName": "Cooper Connolly"
+   }
+  },
+  "1789737926643": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "<b>Cooper Connolly [2.4-0-8-0] is back into the attack</b>",
+   "inningsId": 2,
+   "event": [
+    "none",
+    "all"
+   ],
+   "teamName": "ZIM",
+   "timestamp": 1789737926643,
+   "overSeparator": null,
+   "batsmanDetails": {
+    "playerId": 180,
+    "playerName": "Brendan Taylor"
+   },
+   "bowlerDetails": {
+    "playerId": 15927,
+    "playerName": "Cooper Connolly"
+   }
+  },
+  "1789737862820": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "Oliver Peake to Brendan Taylor, 1 run, drags it down, short, pulled down to deep backward for a single",
+   "inningsId": 2,
+   "event": [
+    "over-break",
+    "all"
+   ],
+   "ballMetric": 27.6,
+   "teamName": "ZIM",
+   "timestamp": 1789737862820,
+   "overSeparator": {
+    "timestamp": 1789737862820,
+    "overNumber": 28,
+    "overSummary": "1 1 0 1 1 1 ",
+    "overRuns": 5,
+    "batTeamObj": {
+     "teamName": "ZIM",
+     "teamScore": "132-3"
+    },
+    "batStrikerObj": {
+     "playerId": 180,
+     "playerName": "Brendan Taylor",
+     "playerScore": "34(30)"
+    },
+    "batNonStrikerObj": {
+     "playerId": 6334,
+     "playerName": "Craig Ervine",
+     "playerScore": "6(11)"
+    },
+    "bowlerObj": {
+     "playerId": 55281,
+     "playerName": "Oliver Peake",
+     "playerScore": "3-0-18-0"
+    }
+   },
+   "batsmanDetails": {
+    "playerId": 180,
+    "playerName": "Brendan Taylor"
+   },
+   "bowlerDetails": {
+    "playerId": 55281,
+    "playerName": "Oliver Peake"
+   }
+  },
+  "1789737835527": {
+   "matchId": 152742,
+   "commType": "commentary",
+   "commText": "Oliver Peake to Ervine, 1 run, punches the ball down to long-off for a single",
+   "inningsId": 2,
+   "event": [
+    "none",
+    "all"
+   ],
+   "ballMetric": 27.5,
+   "teamName": "ZIM",
+   "timestamp": 1789737835527,
+   "overSeparator": null,
+   "batsmanDetails": {
+    "playerId": 6334,
+    "playerName": "Craig Ervine"
+   },
+   "bowlerDetails": {
+    "playerId": 55281,
+    "playerName": "Oliver Peake"
+   }
+  }
+ },
+ "miniscore": {
+  "inningsId": 2,
+  "batTeam": {
+   "teamId": 12,
+   "teamScore": 136,
+   "teamWkts": 3
+  },
+  "status": "Zimbabwe need 221 runs",
+  "batsmanStriker": {
+   "id": 180,
+   "name": "Brendan Taylor",
+   "runs": 35,
+   "balls": 32,
+   "fours": 3,
+   "sixes": 0,
+   "strikeRate": "109.38",
+   "playerUrl": "/profiles/180/brendan-taylor",
+   "playerMatchHighlightsUrl": "/player-match-highlights/152742/2/180/batting"
+  },
+  "batsmanNonStriker": {
+   "id": 6334,
+   "name": "Craig Ervine",
+   "runs": 9,
+   "balls": 12,
+   "fours": 0,
+   "sixes": 0,
+   "strikeRate": "75.00",
+   "playerUrl": "/profiles/6334/craig-ervine",
+   "playerMatchHighlightsUrl": "/player-match-highlights/152742/2/6334/batting"
+  },
+  "bowlerStriker": {
+   "id": 15927,
+   "name": "Cooper Connolly",
+   "overs": 3.1,
+   "maidens": 0,
+   "economy": 3.8,
+   "runs": 12,
+   "wickets": 0,
+   "playerUrl": "/profiles/15927/cooper-connolly",
+   "playerMatchHighlightsUrl": "/player-match-highlights/152742/2/15927/bowling"
+  },
+  "bowlerNonStriker": {
+   "id": 55281,
+   "name": "Oliver Peake",
+   "overs": 3,
+   "maidens": 0,
+   "economy": 6,
+   "runs": 18,
+   "wickets": 0,
+   "playerUrl": "/profiles/55281/oliver-peake",
+   "playerMatchHighlightsUrl": "/player-match-highlights/152742/2/55281/bowling"
+  },
+  "overs": 28.3,
+  "target": 357,
+  "partnerShip": {
+   "balls": 23,
+   "runs": 21
+  },
+  "currentRunRate": 4.77,
+  "requiredRunRate": 10.28,
+  "runsPerBall": 0,
+  "requiredRunsPerBall": 0,
+  "matchScoreDetails": {
+   "matchId": 152742,
+   "inningsScoreList": [
+    {
+     "inningsId": 1,
+     "batTeamId": 4,
+     "batTeamName": "AUS",
+     "score": 356,
+     "wickets": 6,
+     "overs": 50,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 300
+    },
+    {
+     "inningsId": 2,
+     "batTeamId": 12,
+     "batTeamName": "ZIM",
+     "score": 136,
+     "wickets": 3,
+     "overs": 28.3,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 171
+    }
+   ],
+   "isMatchNotCovered": false,
+   "matchFormat": "ODI",
+   "customStatus": "Zimbabwe need 221 runs",
+   "state": "In Progress"
+  },
+  "lastWicket": "Innocent Kaia   b Adam Zampa 34(47)  - 115/3 in 24.4 ov.",
+  "remRunsToWin": 221,
+  "responseLastUpdated": 1789738017,
+  "latestPerformance": [
+   {
+    "runs": 59,
+    "wkts": 1,
+    "label": "Last 10 overs"
+   },
+   {
+    "runs": 25,
+    "wkts": 1,
+    "label": "Last 5 overs"
+   }
+  ],
+  "recentOvsStats": "1 3 0",
+  "event": "none",
+  "batTeamScoreObj": {
+   "teamName": "ZIM",
+   "teamInningsArray": [
+    {
+     "inningsId": 2,
+     "batTeamId": 12,
+     "batTeamName": "ZIM",
+     "score": 136,
+     "wickets": 3,
+     "overs": 28.3,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 171
+    }
+   ]
+  },
+  "bowlTeamScoreObj": {
+   "teamName": "AUS",
+   "teamInningsArray": [
+    {
+     "inningsId": 1,
+     "batTeamId": 4,
+     "batTeamName": "AUS",
+     "score": 356,
+     "wickets": 6,
+     "overs": 49.6,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 300
+    }
+   ]
+  },
+  "matchUdrs": null
+ },
+ "enableNoContent": false,
+ "matchHeader": {
+  "matchId": 152742,
+  "matchDescription": "2nd ODI",
+  "matchFormat": "ODI",
+  "matchType": "International",
+  "complete": false,
+  "domestic": false,
+  "matchStartTimestamp": 1789716600000,
+  "matchStartTimeIST": "1:00 PM",
+  "matchStartTimeGMT": "7:30 AM",
+  "matchStartTimeLocal": "9:30 AM",
+  "matchCompleteTimeIST": "8:00 PM",
+  "matchCompleteTimeGMT": "Fri, Sep 18, 2:30:00 PM",
+  "matchCompleteTimeLocal": "4:30 PM",
+  "dayNight": false,
+  "year": 2026,
+  "state": "In Progress",
+  "status": "Zimbabwe need 221 runs",
+  "tossResults": {
+   "tossWinnerId": 12,
+   "tossWinnerName": "Zimbabwe",
+   "decision": "Bowling"
+  },
+  "result": {},
+  "revisedTarget": {},
+  "playersOfTheMatch": [],
+  "playersOfTheSeries": [],
+  "matchTeamInfo": [
+   {
+    "battingTeamId": 4,
+    "battingTeamShortName": "AUS",
+    "bowlingTeamId": 12,
+    "bowlingTeamShortName": "ZIM"
+   },
+   {
+    "battingTeamId": 12,
+    "battingTeamShortName": "ZIM",
+    "bowlingTeamId": 4,
+    "bowlingTeamShortName": "AUS"
+   }
+  ],
+  "team1": {
+   "id": 12,
+   "name": "Zimbabwe",
+   "playerDetails": [],
+   "shortName": "ZIM"
+  },
+  "team2": {
+   "id": 4,
+   "name": "Australia",
+   "playerDetails": [],
+   "shortName": "AUS"
+  },
+  "seriesDesc": "Australia tour of Zimbabwe 2026",
+  "seriesId": 11997,
+  "seriesName": "Australia tour of Zimbabwe 2026",
+  "alertType": "auto",
+  "isMatchNotCovered": false,
+  "livestreamEnabled": false
+ },
+ "matchVideos": [],
+ "page": "commentary",
+ "responseLastUpdated": 1789738017
+}

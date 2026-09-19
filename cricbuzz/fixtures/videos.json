@@ -1,0 +1,101 @@
+{
+ "collections": [
+  {
+   "id": "1",
+   "order": 1,
+   "label": "Latest Videos",
+   "onMoreContentClick": "/cricket-videos/collection/1/latest-videos",
+   "contentData": [
+    {
+     "id": "209864",
+     "title": "Vaibhav has to wait; don't want to rush Hardik: Gautam Gambhir",
+     "isCbPlusContent": false,
+     "isPremiumFree": false,
+     "description": "6h ago",
+     "onCardClick": "/cricket-videos/209864/vaibhav-has-to-wait-dont-want-to-rush-hardik-gautam-gambhir",
+     "imageObj": {
+      "imageId": "1078741",
+      "alt": "vaibhav-has-to-wait-dont-want-to-rush-hardik-gautam-gambhir",
+      "src": "imagesrc",
+      "w": 290,
+      "h": 160,
+      "aspect": "16:9",
+      "imageType": "det",
+      "priority": true
+     },
+     "icon": "cbPlayIcon",
+     "durationStr": "5:27"
+    },
+    {
+     "id": "209730",
+     "title": "No debate around Rohit & Kohli; selection is a must: Mohit",
+     "isCbPlusContent": false,
+     "isPremiumFree": false,
+     "description": "18h ago",
+     "onCardClick": "/cricket-videos/209730/no-debate-around-rohit-kohli-selection-is-a-must-mohit",
+     "imageObj": {
+      "imageId": "1078108",
+      "alt": "no-debate-around-rohit-kohli-selection-is-a-must-mohit",
+      "src": "imagesrc",
+      "w": 290,
+      "h": 160,
+      "aspect": "16:9",
+      "imageType": "det",
+      "priority": true
+     },
+     "icon": "cbPlayIcon",
+     "durationStr": "7:06"
+    }
+   ]
+  },
+  {
+   "id": "23",
+   "order": 11,
+   "label": "Press Conference",
+   "onMoreContentClick": "/cricket-videos/collection/23/press-conference",
+   "contentData": [
+    {
+     "id": "209864",
+     "title": "Vaibhav has to wait; don't want to rush Hardik: Gautam Gambhir",
+     "isCbPlusContent": false,
+     "isPremiumFree": false,
+     "description": "6h ago",
+     "onCardClick": "/cricket-videos/209864/vaibhav-has-to-wait-dont-want-to-rush-hardik-gautam-gambhir",
+     "imageObj": {
+      "imageId": "1078741",
+      "alt": "vaibhav-has-to-wait-dont-want-to-rush-hardik-gautam-gambhir",
+      "src": "imagesrc",
+      "w": 290,
+      "h": 160,
+      "aspect": "16:9",
+      "imageType": "det",
+      "priority": true
+     },
+     "icon": "cbPlayIcon",
+     "durationStr": "5:27"
+    },
+    {
+     "id": "209323",
+     "title": "It used to hurt; we're not robots - outside noise does affect us: Samson",
+     "isCbPlusContent": false,
+     "isPremiumFree": false,
+     "description": "2d ago",
+     "onCardClick": "/cricket-videos/209323/it-used-to-hurt-were-not-robots-outside-noise-does-affect-us-samson",
+     "imageObj": {
+      "imageId": "1076131",
+      "alt": "it-used-to-hurt-were-not-robots-outside-noise-does-affect-us-samson",
+      "src": "imagesrc",
+      "w": 290,
+      "h": 160,
+      "aspect": "16:9",
+      "imageType": "det",
+      "priority": true
+     },
+     "icon": "cbPlayIcon",
+     "durationStr": "5:31"
+    }
+   ]
+  }
+ ],
+ "nextPaginationURL": "/api/cricket-videos/16"
+}

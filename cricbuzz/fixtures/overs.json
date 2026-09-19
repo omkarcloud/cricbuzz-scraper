@@ -1,0 +1,77 @@
+{
+ "paginatedData": [
+  {
+   "inningsId": 1,
+   "overs": 50,
+   "runs": 24,
+   "score": 356,
+   "wickets": 6,
+   "ovrSummary": "2 6 2 Wd 6 6 1 ",
+   "timestamp": 1789729221075,
+   "batTeamName": "AUS",
+   "event": "over-break",
+   "batStrikerIds": [
+    55281
+   ],
+   "batStrikerNames": [
+    "Oliver Peake"
+   ],
+   "batStrikerRuns": 41,
+   "batStrikerBalls": 18,
+   "batNonStrikerIds": [
+    15480
+   ],
+   "batNonStrikerNames": [
+    "Nathan Ellis"
+   ],
+   "batNonStrikerRuns": 6,
+   "batNonStrikerBalls": 5,
+   "bowlIds": [
+    19592
+   ],
+   "bowlNames": [
+    "Brad Evans"
+   ],
+   "bowlOvers": 9,
+   "bowlMaidens": 0,
+   "bowlRuns": 86,
+   "bowlWickets": 3
+  },
+  {
+   "inningsId": 1,
+   "overs": 49,
+   "runs": 7,
+   "score": 332,
+   "wickets": 6,
+   "ovrSummary": "1 1 1 0 2 2 ",
+   "timestamp": 1789728929121,
+   "batTeamName": "AUS",
+   "event": "over-break",
+   "batStrikerIds": [
+    55281,
+    15480
+   ],
+   "batStrikerNames": [
+    "Nathan Ellis",
+    "Oliver Peake"
+   ],
+   "batStrikerRuns": 6,
+   "batStrikerBalls": 5,
+   "batNonStrikerIds": [],
+   "batNonStrikerNames": [],
+   "batNonStrikerRuns": 18,
+   "batNonStrikerBalls": 12,
+   "bowlIds": [
+    13316
+   ],
+   "bowlNames": [
+    "Blessing Muzarabani"
+   ],
+   "bowlOvers": 9,
+   "bowlMaidens": 0,
+   "bowlRuns": 68,
+   "bowlWickets": 0
+  }
+ ],
+ "nextPaginationURL": "/api/mcenter/over-by-over/152742/1/1789726598002"
+}

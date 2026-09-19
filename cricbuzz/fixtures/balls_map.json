@@ -1,0 +1,211 @@
+{
+ "balls": [
+  {
+   "timestamp": 1789729221075,
+   "ballNbr": 300,
+   "overNum": 49.6,
+   "inningsId": 1,
+   "event": "over-break,HIGHSCORING_OVER",
+   "totalRuns": 1,
+   "batsmanStrikerId": 55281,
+   "bowlerStrikerId": 19592,
+   "ballLabel": "1"
+  },
+  {
+   "timestamp": 1789729196914,
+   "ballNbr": 299,
+   "overNum": 49.5,
+   "inningsId": 1,
+   "event": "TEAM_HUNDRED,SIX",
+   "totalRuns": 6,
+   "batsmanStrikerId": 55281,
+   "bowlerStrikerId": 19592,
+   "ballLabel": "6"
+  },
+  {
+   "timestamp": 1789729147275,
+   "ballNbr": 298,
+   "overNum": 49.4,
+   "inningsId": 1,
+   "event": "SIX",
+   "totalRuns": 6,
+   "batsmanStrikerId": 55281,
+   "bowlerStrikerId": 19592,
+   "ballLabel": "6"
+  },
+  {
+   "timestamp": 1789729119494,
+   "ballNbr": 298,
+   "overNum": 49.4,
+   "inningsId": 1,
+   "event": "NONE",
+   "totalRuns": 1,
+   "batsmanStrikerId": 55281,
+   "bowlerStrikerId": 19592,
+   "ballLabel": "Wd"
+  }
+ ],
+ "batters": [
+  {
+   "batId": 6250,
+   "batName": "Mitchell Marsh",
+   "runs": 53,
+   "balls": 63,
+   "dots": 38,
+   "fours": 3,
+   "sixes": 3,
+   "strikeRate": 84.13
+  },
+  {
+   "batId": 8497,
+   "batName": "Travis Head",
+   "runs": 112,
+   "balls": 84,
+   "dots": 35,
+   "fours": 15,
+   "sixes": 3,
+   "strikeRate": 133.33
+  },
+  {
+   "batId": 15927,
+   "batName": "Cooper Connolly",
+   "runs": 78,
+   "balls": 69,
+   "dots": 23,
+   "fours": 3,
+   "sixes": 3,
+   "strikeRate": 113.04
+  },
+  {
+   "batId": 10637,
+   "batName": "Josh Inglis",
+   "runs": 21,
+   "balls": 20,
+   "dots": 7,
+   "fours": 2,
+   "sixes": 0,
+   "strikeRate": 105
+  },
+  {
+   "batId": 9200,
+   "batName": "Alex Carey",
+   "runs": 20,
+   "balls": 30,
+   "dots": 18,
+   "fours": 1,
+   "sixes": 0,
+   "strikeRate": 66.67
+  },
+  {
+   "batId": 10055,
+   "batName": "Matt Renshaw",
+   "runs": 15,
+   "balls": 11,
+   "dots": 1,
+   "fours": 1,
+   "sixes": 0,
+   "strikeRate": 136.36
+  },
+  {
+   "batId": 55281,
+   "batName": "Oliver Peake",
+   "runs": 41,
+   "balls": 18,
+   "dots": 2,
+   "fours": 2,
+   "sixes": 3,
+   "strikeRate": 227.78
+  },
+  {
+   "batId": 15480,
+   "batName": "Nathan Ellis",
+   "runs": 6,
+   "balls": 5,
+   "dots": 1,
+   "fours": 0,
+   "sixes": 0,
+   "strikeRate": 120
+  }
+ ],
+ "bowlers": [
+  {
+   "bowlerId": 13316,
+   "bowlName": "Blessing Muzarabani",
+   "overs": 9,
+   "maidens": 0,
+   "runs": 68,
+   "wickets": 0,
+   "economy": 7.6,
+   "no_balls": 0,
+   "wides": 2
+  },
+  {
+   "bowlerId": 19592,
+   "bowlName": "Brad Evans",
+   "overs": 9,
+   "maidens": 0,
+   "runs": 86,
+   "wickets": 3,
+   "economy": 9.6,
+   "no_balls": 0,
+   "wides": 2
+  },
+  {
+   "bowlerId": 54385,
+   "bowlName": "Newman Nyamhuri",
+   "overs": 5,
+   "maidens": 0,
+   "runs": 37,
+   "wickets": 0,
+   "economy": 7.4,
+   "no_balls": 0,
+   "wides": 3
+  },
+  {
+   "bowlerId": 9354,
+   "bowlName": "Sikandar Raza",
+   "overs": 10,
+   "maidens": 0,
+   "runs": 60,
+   "wickets": 0,
+   "economy": 6,
+   "no_balls": 0,
+   "wides": 1
+  },
+  {
+   "bowlerId": 8460,
+   "bowlName": "Wellington Masakadza",
+   "overs": 9,
+   "maidens": 0,
+   "runs": 51,
+   "wickets": 2,
+   "economy": 5.7,
+   "no_balls": 0,
+   "wides": 0
+  },
+  {
+   "bowlerId": 11226,
+   "bowlName": "Wessly Madhevere",
+   "overs": 8,
+   "maidens": 0,
+   "runs": 52,
+   "wickets": 1,
+   "economy": 6.5,
+   "no_balls": 0,
+   "wides": 0
+  }
+ ],
+ "scoreDetails": {
+  "ballNbr": 300,
+  "overs": 50,
+  "revisedOvers": 0,
+  "runRate": 7.12,
+  "runs": 356,
+  "wickets": 6,
+  "runsPerBall": 0.71,
+  "declared": false,
+  "followOn": false,
+  "isDeclared": false,
+  "isFollowOn": false
+ }
+}

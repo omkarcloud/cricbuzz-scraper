@@ -1,0 +1,139 @@
+{
+ "player": [
+  {
+   "name": "BATTERS",
+   "isHeader": true
+  },
+  {
+   "id": "8497",
+   "name": "Travis Head",
+   "role": "Batsman",
+   "imageId": 845768,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+   "id": "10055",
+   "name": "Matt Renshaw",
+   "role": "Batsman",
+   "imageId": 845941,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+   "name": "ALL ROUNDERS",
+   "isHeader": true
+  },
+  {
+   "id": "15927",
+   "name": "Cooper Connolly",
+   "role": "Batting Allrounder",
+   "imageId": 845942,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Left-arm orthodox"
+  },
+  {
+   "id": "12225",
+   "name": "Cameron Green",
+   "role": "Batting Allrounder",
+   "imageId": 845943,
+   "battingStyle": "Right-hand bat",
+   "bowlingStyle": "Right-arm fast-medium"
+  },
+  {
+   "id": "6250",
+   "name": "Mitchell Marsh",
+   "captain": true,
+   "role": "Batting Allrounder",
+   "imageId": 845760,
+   "battingStyle": "Right-hand bat",
+   "bowlingStyle": "Right-arm fast-medium"
+  },
+  {
+   "id": "55281",
+   "name": "Oliver Peake",
+   "role": "Bowling Allrounder",
+   "imageId": 822683,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Right-arm offbreak"
+  },
+  {
+   "name": "WICKET KEEPERS",
+   "isHeader": true
+  },
+  {
+   "id": "9200",
+   "name": "Alex Carey",
+   "role": "WK-Batsman",
+   "imageId": 619880,
+   "battingStyle": "Left-hand bat"
+  },
+  {
+   "id": "10637",
+   "name": "Josh Inglis",
+   "role": "WK-Batsman",
+   "imageId": 845950,
+   "battingStyle": "Right-hand bat"
+  },
+  {
+   "name": "BOWLERS",
+   "isHeader": true
+  },
+  {
+   "id": "11689",
+   "name": "Xavier Bartlett",
+   "role": "Bowler",
+   "imageId": 845954,
+   "battingStyle": "Right-hand bat",
+   "bowlingStyle": "Right-arm fast-medium"
+  },
+  {
+   "id": "53076",
+   "name": "Joel Davies",
+   "role": "Bowler",
+   "imageId": 174146,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Left-arm orthodox"
+  },
+  {
+   "id": "15480",
+   "name": "Nathan Ellis",
+   "role": "Bowler",
+   "imageId": 845764,
+   "battingStyle": "Right-hand bat",
+   "bowlingStyle": "Right-arm fast-medium"
+  },
+  {
+   "id": "6258",
+   "name": "Josh Hazlewood",
+   "role": "Bowler",
+   "imageId": 845819,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Right-arm fast-medium"
+  },
+  {
+   "id": "13143",
+   "name": "Spencer Johnson",
+   "role": "Bowler",
+   "imageId": 619884,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Left-arm fast"
+  },
+  {
+   "id": "9572",
+   "name": "Billy Stanlake",
+   "role": "Bowler",
+   "imageId": 156049,
+   "battingStyle": "Left-hand bat",
+   "bowlingStyle": "Right-arm fast"
+  },
+  {
+   "id": "8642",
+   "name": "Adam Zampa",
+   "role": "Bowler",
+   "imageId": 845772,
+   "battingStyle": "Right-hand bat",
+   "bowlingStyle": "Right-arm legbreak"
+  }
+ ]
+}

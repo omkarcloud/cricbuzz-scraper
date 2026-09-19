@@ -1,0 +1,164 @@
+{
+ "teamStandings": [
+  {
+   "teamId": "4",
+   "teamName": "Australia",
+   "teamRank": 1,
+   "seriesPlayed": "1.000",
+   "matchesPlayed": 10,
+   "matchesWon": 8,
+   "matchesLost": 2,
+   "totalPoints": "96",
+   "pctPercentage": "80.000",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776202
+  },
+  {
+   "teamId": "11",
+   "teamName": "South Africa",
+   "teamRank": 2,
+   "seriesPlayed": "2.000",
+   "matchesPlayed": 4,
+   "matchesWon": 3,
+   "matchesLost": 1,
+   "totalPoints": "36",
+   "pctPercentage": "75.000",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776287
+  },
+  {
+   "teamId": "13",
+   "teamName": "New Zealand",
+   "teamRank": 3,
+   "seriesPlayed": "2.000",
+   "matchesPlayed": 6,
+   "matchesWon": 4,
+   "matchesLost": 1,
+   "matchesDrawn": 1,
+   "totalPoints": "52",
+   "pctPercentage": "72.220",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776333
+  },
+  {
+   "teamId": "6",
+   "teamName": "Bangladesh",
+   "teamRank": 4,
+   "seriesPlayed": "1.000",
+   "matchesPlayed": 6,
+   "matchesWon": 3,
+   "matchesLost": 2,
+   "matchesDrawn": 1,
+   "totalPoints": "40",
+   "pctPercentage": "55.560",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776210
+  },
+  {
+   "teamId": "2",
+   "teamName": "India",
+   "teamRank": 5,
+   "seriesPlayed": "3.000",
+   "matchesPlayed": 11,
+   "matchesWon": 5,
+   "matchesLost": 4,
+   "matchesDrawn": 2,
+   "totalPoints": "68",
+   "pctPercentage": "51.520",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776162
+  },
+  {
+   "teamId": "9",
+   "teamName": "England",
+   "teamRank": 6,
+   "seriesPlayed": "3.000",
+   "matchesPlayed": 16,
+   "matchesWon": 7,
+   "matchesLost": 8,
+   "matchesDrawn": 1,
+   "totalPoints": "74",
+   "pctPercentage": "38.540",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776237
+  },
+  {
+   "teamId": "5",
+   "teamName": "Sri Lanka",
+   "teamRank": 7,
+   "seriesPlayed": "1.000",
+   "matchesPlayed": 6,
+   "matchesWon": 1,
+   "matchesLost": 2,
+   "matchesDrawn": 3,
+   "totalPoints": "24",
+   "pctPercentage": "33.330",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776254
+  },
+  {
+   "teamId": "10",
+   "teamName": "West Indies",
+   "teamRank": 8,
+   "seriesPlayed": "3.000",
+   "matchesPlayed": 12,
+   "matchesWon": 2,
+   "matchesLost": 8,
+   "matchesDrawn": 2,
+   "totalPoints": "30",
+   "pctPercentage": "20.830",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776191
+  },
+  {
+   "teamId": "3",
+   "teamName": "Pakistan",
+   "teamRank": 9,
+   "seriesPlayed": "2.000",
+   "matchesPlayed": 9,
+   "matchesWon": 2,
+   "matchesLost": 7,
+   "totalPoints": "5",
+   "pctPercentage": "4.630",
+   "seasonId": 15,
+   "currentlyPlaying": true,
+   "teamImageId": 776308
+  }
+ ],
+ "seasonStandings": [
+  {
+   "id": 15,
+   "name": "World Test Championship (2025-2027) ",
+   "startYear": 2025,
+   "endYear": 2027,
+   "isActive": true
+  },
+  {
+   "id": 5,
+   "name": "World Test Championship (2023-2025)",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "id": 4,
+   "name": "World Test Championship (2021-2023)",
+   "startYear": 2021,
+   "endYear": 2023
+  },
+  {
+   "id": 3,
+   "name": "World Test Championship (2019-2021)",
+   "startYear": 2019,
+   "endYear": 2021
+  }
+ ],
+ "subText": "In the WTC 2025-2027, teams will get 12 points for a win, 4 for a draw and 6 for a tie. Points percentage system (PCT) will be used to determine the leaderboard. PCT = Points won by a team / Points contested * 100."
+}

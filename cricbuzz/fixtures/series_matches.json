@@ -1,0 +1,71 @@
+{
+ "matchDetails": [
+  {
+   "matchDetailsMap": {
+    "key": "Tue, 15 Sep 2026",
+    "match": [
+     {
+      "matchInfo": {
+       "matchId": 152731,
+       "seriesId": 11997,
+       "seriesName": "Australia tour of Zimbabwe 2026",
+       "matchDesc": "1st ODI",
+       "matchFormat": "ODI",
+       "startDate": "1789457400000",
+       "endDate": "1789486200000",
+       "state": "Complete",
+       "status": "Australia won by 59 runs",
+       "team1": {
+        "teamId": 4,
+        "teamName": "Australia",
+        "teamSName": "AUS",
+        "imageId": 776202
+       },
+       "team2": {
+        "teamId": 12,
+        "teamName": "Zimbabwe",
+        "teamSName": "ZIM",
+        "imageId": 776198
+       },
+       "venueInfo": {
+        "id": 69,
+        "ground": "Harare Sports Club",
+        "city": "Harare",
+        "timezone": "+02:00"
+       },
+       "currBatTeamId": 4,
+       "seriesStartDt": "1789430400000",
+       "seriesEndDt": "1790035200000",
+       "isTimeAnnounced": true,
+       "hideScoreStatus": "Match completed"
+      },
+      "matchScore": {
+       "team1Score": {
+        "inngs1": {
+         "inningsId": 1,
+         "runs": 294,
+         "wickets": 8,
+         "overs": 50
+        }
+       },
+       "team2Score": {
+        "inngs1": {
+         "inningsId": 2,
+         "runs": 235,
+         "wickets": 10,
+         "overs": 45.1
+        }
+       }
+      }
+     }
+    ],
+    "seriesId": 11997
+   }
+  }
+ ],
+ "landingPosition": 4,
+ "appIndex": {
+  "seoTitle": "Australia tour of Zimbabwe 2026 live scores, schedule and results - Cricbuzz | Cricbuzz.com",
+  "webURL": "www.cricbuzz.com/cricket-series/"
+ }
+}

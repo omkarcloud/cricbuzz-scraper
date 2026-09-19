@@ -1,0 +1,155 @@
+{
+ "commentaryList": [
+  {
+   "commText": "Cooper Connolly to Brendan Taylor, no run, angled in, flatter one, Brendan Taylor",
+   "timestamp": 1789738006878,
+   "ballNbr": 171,
+   "overNumber": 28.3,
+   "inningsId": 2,
+   "event": "NONE",
+   "batTeamName": "ZIM"
+  }
+ ],
+ "miniscore": {
+  "inningsId": 2,
+  "batsmanStriker": {
+   "batBalls": 32,
+   "batDots": 6,
+   "batFours": 3,
+   "batId": 180,
+   "batName": "Brendan Taylor",
+   "batMins": 45,
+   "batRuns": 35,
+   "batSixes": 0,
+   "batStrikeRate": 109.38
+  },
+  "batsmanNonStriker": {
+   "batBalls": 12,
+   "batDots": 5,
+   "batFours": 0,
+   "batId": 6334,
+   "batName": "Craig Ervine",
+   "batMins": 13,
+   "batRuns": 9,
+   "batSixes": 0,
+   "batStrikeRate": 75
+  },
+  "batTeam": {
+   "teamId": 12,
+   "teamScore": 136,
+   "teamWkts": 3
+  },
+  "bowlerStriker": {
+   "bowlId": 15927,
+   "bowlName": "Cooper Connolly",
+   "bowlMaidens": 0,
+   "bowlNoballs": 0,
+   "bowlOvs": 3.1,
+   "bowlRuns": 12,
+   "bowlWides": 1,
+   "bowlWkts": 0,
+   "bowlEcon": 3.8
+  },
+  "bowlerNonStriker": {
+   "bowlId": 55281,
+   "bowlName": "Oliver Peake",
+   "bowlMaidens": 0,
+   "bowlNoballs": 0,
+   "bowlOvs": 3,
+   "bowlRuns": 18,
+   "bowlWides": 0,
+   "bowlWkts": 0,
+   "bowlEcon": 6
+  },
+  "overs": 28.3,
+  "recentOvsStats": "1 3 0",
+  "target": 357,
+  "partnerShip": {
+   "balls": 23,
+   "runs": 21
+  },
+  "currentRunRate": 4.77,
+  "requiredRunRate": 10.28,
+  "lastWicket": "Innocent Kaia   b Adam Zampa 34(47)  - 115/3 in 24.4 ov.",
+  "matchScoreDetails": {
+   "matchId": 152742,
+   "inningsScoreList": [
+    {
+     "inningsId": 2,
+     "batTeamId": 12,
+     "batTeamName": "ZIM",
+     "score": 136,
+     "wickets": 3,
+     "overs": 28.3,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 171
+    },
+    {
+     "inningsId": 1,
+     "batTeamId": 4,
+     "batTeamName": "AUS",
+     "score": 356,
+     "wickets": 6,
+     "overs": 49.6,
+     "isDeclared": false,
+     "isFollowOn": false,
+     "ballNbr": 300
+    }
+   ],
+   "tossResults": {
+    "tossWinnerId": 12,
+    "tossWinnerName": "Zimbabwe",
+    "decision": "Bowling"
+   },
+   "matchTeamInfo": [
+    {
+     "battingTeamId": 4,
+     "battingTeamShortName": "AUS",
+     "bowlingTeamId": 12,
+     "bowlingTeamShortName": "ZIM"
+    },
+    {
+     "battingTeamId": 12,
+     "battingTeamShortName": "ZIM",
+     "bowlingTeamId": 4,
+     "bowlingTeamShortName": "AUS"
+    }
+   ],
+   "isMatchNotCovered": false,
+   "matchFormat": "ODI",
+   "state": "In Progress",
+   "customStatus": "Zimbabwe need 221 runs",
+   "hideScoreStatus": "Match in progress",
+   "highlightedTeamId": 12
+  },
+  "latestPerformance": [
+   {
+    "runs": 59,
+    "wkts": 1,
+    "label": "Last 10 overs"
+   },
+   {
+    "runs": 25,
+    "wkts": 1,
+    "label": "Last 5 overs"
+   }
+  ],
+  "ppData": {
+   "pp_1": {
+    "ppId": 28,
+    "ppOversFrom": 0.1,
+    "ppOversTo": 10,
+    "ppType": "Mandatory",
+    "runsScored": 41
+   }
+  },
+  "overSummaryList": [],
+  "status": "Zimbabwe need 221 runs",
+  "lastWicketScore": 34,
+  "remRunsToWin": 221,
+  "responseLastUpdated": 1789738018,
+  "event": "NONE",
+  "timestamp": 1789738006878
+ }
+}

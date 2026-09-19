@@ -1,0 +1,209 @@
+{
+ "commentaryList": [
+  {
+   "commText": "Brad Evans to Oliver Peake, B0$, short ball down the leg-side and Oliver Peake has pulled it over fine leg for six more. B1$",
+   "timestamp": 1789729196914,
+   "ballNbr": 299,
+   "overNumber": 49.5,
+   "inningsId": 1,
+   "event": "TEAM_HUNDRED,SIX",
+   "batTeamName": "AUS",
+   "commentaryFormats": {
+    "bold": {
+     "formatId": [
+      "B0$",
+      "B1$"
+     ],
+     "formatValue": [
+      "SIX",
+      "350 up for Australia"
+     ]
+    }
+   },
+   "batsmanStriker": {
+    "batBalls": 17,
+    "batDots": 2,
+    "batFours": 2,
+    "batId": 55281,
+    "batName": "Oliver Peake",
+    "batMins": 18,
+    "batRuns": 40,
+    "batSixes": 3,
+    "batStrikeRate": 235.29
+   },
+   "bowlerStriker": {
+    "bowlId": 19592,
+    "bowlName": "Brad Evans",
+    "bowlMaidens": 0,
+    "bowlNoballs": 0,
+    "bowlOvs": 8.5,
+    "bowlRuns": 85,
+    "bowlWides": 2,
+    "bowlWkts": 3,
+    "bowlEcon": 9.6
+   },
+   "legalRuns": 6,
+   "totalRuns": 6,
+   "batTeamScore": 355
+  },
+  {
+   "commText": "Brad Evans to Oliver Peake, B0$, proving to be a massive finish for Australia! This was a back of a length delivery outside off, Oliver Peake transfers his weight onto the back foot, and smokes it right over the bowler's head for half-a-dozen more",
+   "timestamp": 1789729147275,
+   "ballNbr": 298,
+   "overNumber": 49.4,
+   "inningsId": 1,
+   "event": "SIX",
+   "batTeamName": "AUS",
+   "commentaryFormats": {
+    "bold": {
+     "formatId": [
+      "B0$"
+     ],
+     "formatValue": [
+      "SIX"
+     ]
+    }
+   },
+   "batsmanStriker": {
+    "batBalls": 16,
+    "batDots": 2,
+    "batFours": 2,
+    "batId": 55281,
+    "batName": "Oliver Peake",
+    "batMins": 18,
+    "batRuns": 34,
+    "batSixes": 2,
+    "batStrikeRate": 212.5
+   },
+   "bowlerStriker": {
+    "bowlId": 19592,
+    "bowlName": "Brad Evans",
+    "bowlMaidens": 0,
+    "bowlNoballs": 0,
+    "bowlOvs": 8.4,
+    "bowlRuns": 79,
+    "bowlWides": 2,
+    "bowlWkts": 3,
+    "bowlEcon": 9.1
+   },
+   "legalRuns": 6,
+   "totalRuns": 6,
+   "batTeamScore": 349
+  },
+  {
+   "commText": "Brad Evans to Oliver Peake, B0$, B1$ On the shorter side around off, a slower one, Oliver Peake waits for it to arrive and pummels it over wide long-on for a towering six",
+   "timestamp": 1789729029572,
+   "ballNbr": 296,
+   "overNumber": 49.2,
+   "inningsId": 1,
+   "event": "SIX",
+   "batTeamName": "AUS",
+   "commentaryFormats": {
+    "bold": {
+     "formatId": [
+      "B0$",
+      "B1$"
+     ],
+     "formatValue": [
+      "SIX",
+      "smoked into the stands!"
+     ]
+    }
+   },
+   "batsmanStriker": {
+    "batBalls": 14,
+    "batDots": 2,
+    "batFours": 2,
+    "batId": 55281,
+    "batName": "Oliver Peake",
+    "batMins": 18,
+    "batRuns": 26,
+    "batSixes": 1,
+    "batStrikeRate": 185.71
+   },
+   "bowlerStriker": {
+    "bowlId": 19592,
+    "bowlName": "Brad Evans",
+    "bowlMaidens": 0,
+    "bowlNoballs": 0,
+    "bowlOvs": 8.2,
+    "bowlRuns": 70,
+    "bowlWides": 1,
+    "bowlWkts": 3,
+    "bowlEcon": 8.4
+   },
+   "legalRuns": 6,
+   "totalRuns": 6,
+   "batTeamScore": 340
+  }
+ ],
+ "matchHeader": {
+  "matchId": 152742,
+  "matchDescription": "2nd ODI",
+  "matchFormat": "ODI",
+  "matchType": "International",
+  "complete": false,
+  "domestic": false,
+  "matchStartTimestamp": 1789716600000,
+  "matchCompleteTimestamp": 1789741800000,
+  "dayNight": false,
+  "year": 2026,
+  "state": "In Progress",
+  "status": "Zimbabwe opt to bowl",
+  "tossResults": {
+   "tossWinnerId": 12,
+   "tossWinnerName": "Zimbabwe",
+   "decision": "Bowling"
+  },
+  "result": {},
+  "revisedTarget": {},
+  "playersOfTheMatch": [],
+  "playersOfTheSeries": [],
+  "matchTeamInfo": [
+   {
+    "battingTeamId": 4,
+    "battingTeamShortName": "AUS",
+    "bowlingTeamId": 12,
+    "bowlingTeamShortName": "ZIM"
+   },
+   {
+    "battingTeamId": 12,
+    "battingTeamShortName": "ZIM",
+    "bowlingTeamId": 4,
+    "bowlingTeamShortName": "AUS"
+   }
+  ],
+  "isMatchNotCovered": false,
+  "team1": {
+   "id": 12,
+   "name": "Zimbabwe",
+   "playerDetails": [],
+   "shortName": "ZIM"
+  },
+  "team2": {
+   "id": 4,
+   "name": "Australia",
+   "playerDetails": [],
+   "shortName": "AUS"
+  },
+  "seriesDesc": "Australia tour of Zimbabwe 2026",
+  "venue": {
+   "id": 69,
+   "name": "Harare Sports Club",
+   "city": "Harare",
+   "country": "Zimbabwe",
+   "timezone": "+02:00",
+   "latitude": "-17.814114",
+   "longitude": "31.050962"
+  },
+  "seriesId": 11997,
+  "seriesName": "Australia tour of Zimbabwe 2026",
+  "alertType": "auto",
+  "livestreamEnabled": false
+ },
+ "commentarySnippetList": [],
+ "page": "highlights",
+ "enableNoContent": false,
+ "matchVideos": [],
+ "responseLastUpdated": 1789737753
+}

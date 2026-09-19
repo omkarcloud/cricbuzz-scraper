@@ -1,0 +1,489 @@
+{
+ "matches": [
+  {
+   "matchType": "International",
+   "seriesMatches": [
+    {
+     "seriesAdWrapper": {
+      "seriesId": 12973,
+      "seriesName": "Afghanistan vs India in India 2026",
+      "matches": [
+       {
+        "matchInfo": {
+         "matchId": 170120,
+         "seriesId": 12973,
+         "seriesName": "Afghanistan vs India in India 2026",
+         "matchDesc": "3rd T20I",
+         "matchFormat": "T20",
+         "startDate": "1789653600000",
+         "endDate": "1789666200000",
+         "state": "Complete",
+         "status": "India won by 127 runs",
+         "team1": {
+          "teamId": 2,
+          "teamName": "India",
+          "teamSName": "IND",
+          "imageId": 776162
+         },
+         "team2": {
+          "teamId": 96,
+          "teamName": "Afghanistan",
+          "teamSName": "AFG",
+          "imageId": 776177
+         },
+         "venueInfo": {
+          "id": 51,
+          "ground": "Arun Jaitley Stadium",
+          "city": "Delhi",
+          "timezone": "+05:30",
+          "latitude": "28.637891",
+          "longitude": "77.243073"
+         },
+         "currBatTeamId": 2,
+         "seriesStartDt": "1789257600000",
+         "seriesEndDt": "1789776000000",
+         "isTimeAnnounced": true,
+         "stateTitle": "Complete",
+         "isFantasyEnabled": true,
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 221,
+           "wickets": 7,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 94,
+           "wickets": 10,
+           "overs": 14.1
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 170110,
+         "seriesId": 12973,
+         "seriesName": "Afghanistan vs India in India 2026",
+         "matchDesc": "2nd T20I",
+         "matchFormat": "T20",
+         "startDate": "1789480800000",
+         "endDate": "1789493400000",
+         "state": "Complete",
+         "status": "India won by 7 wkts",
+         "team1": {
+          "teamId": 96,
+          "teamName": "Afghanistan",
+          "teamSName": "AFG",
+          "imageId": 776177
+         },
+         "team2": {
+          "teamId": 2,
+          "teamName": "India",
+          "teamSName": "IND",
+          "imageId": 776162
+         },
+         "venueInfo": {
+          "id": 51,
+          "ground": "Arun Jaitley Stadium",
+          "city": "Delhi",
+          "timezone": "+05:30",
+          "latitude": "28.637891",
+          "longitude": "77.243073"
+         },
+         "currBatTeamId": 2,
+         "seriesStartDt": "1789257600000",
+         "seriesEndDt": "1789776000000",
+         "isTimeAnnounced": true,
+         "stateTitle": "IND Won",
+         "isFantasyEnabled": true,
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 159,
+           "wickets": 8,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 163,
+           "wickets": 3,
+           "overs": 14.5
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 170103,
+         "seriesId": 12973,
+         "seriesName": "Afghanistan vs India in India 2026",
+         "matchDesc": "1st T20I",
+         "matchFormat": "T20",
+         "startDate": "1789308000000",
+         "endDate": "1789320600000",
+         "state": "Complete",
+         "status": "India won by 7 wkts",
+         "team1": {
+          "teamId": 96,
+          "teamName": "Afghanistan",
+          "teamSName": "AFG",
+          "imageId": 776177
+         },
+         "team2": {
+          "teamId": 2,
+          "teamName": "India",
+          "teamSName": "IND",
+          "imageId": 776162
+         },
+         "venueInfo": {
+          "id": 51,
+          "ground": "Arun Jaitley Stadium",
+          "city": "Delhi",
+          "timezone": "+05:30",
+          "latitude": "28.637891",
+          "longitude": "77.243073"
+         },
+         "currBatTeamId": 2,
+         "seriesStartDt": "1789257600000",
+         "seriesEndDt": "1789776000000",
+         "isTimeAnnounced": true,
+         "stateTitle": "IND Won",
+         "isFantasyEnabled": true,
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 156,
+           "wickets": 8,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 157,
+           "wickets": 3,
+           "overs": 13.4
+          }
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "matchType": "League",
+   "seriesMatches": [
+    {
+     "seriesAdWrapper": {
+      "seriesId": 12123,
+      "seriesName": "Caribbean Premier League 2026",
+      "matches": [
+       {
+        "matchInfo": {
+         "matchId": 154689,
+         "seriesId": 12123,
+         "seriesName": "Caribbean Premier League 2026",
+         "matchDesc": "Qualifier 1",
+         "matchFormat": "T20",
+         "startDate": "1789689600000",
+         "endDate": "1789702200000",
+         "state": "Complete",
+         "status": "Antigua and Barbuda Falcons won by 9 wkts",
+         "team1": {
+          "teamId": 159,
+          "teamName": "Guyana Amazon Warriors",
+          "teamSName": "GAW",
+          "imageId": 825126
+         },
+         "team2": {
+          "teamId": 1978,
+          "teamName": "Antigua and Barbuda Falcons",
+          "teamSName": "ABF",
+          "imageId": 825120
+         },
+         "venueInfo": {
+          "id": 55,
+          "ground": "Kensington Oval",
+          "city": "Bridgetown, Barbados",
+          "timezone": "-04:00",
+          "latitude": "13.105021",
+          "longitude": "-59.62257"
+         },
+         "currBatTeamId": 1978,
+         "seriesStartDt": "1786060800000",
+         "seriesEndDt": "1790035200000",
+         "isTimeAnnounced": true,
+         "stateTitle": "ABF Won",
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 76,
+           "wickets": 10,
+           "overs": 14.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 77,
+           "wickets": 1,
+           "overs": 5.2
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 154682,
+         "seriesId": 12123,
+         "seriesName": "Caribbean Premier League 2026",
+         "matchDesc": "Eliminator",
+         "matchFormat": "T20",
+         "startDate": "1789599600000",
+         "endDate": "1789612200000",
+         "state": "Complete",
+         "status": "Jamaica Kingsmen won by 9 wkts",
+         "team1": {
+          "teamId": 262,
+          "teamName": "Barbados Tridents",
+          "teamSName": "BBT",
+          "imageId": 1050666
+         },
+         "team2": {
+          "teamId": 3208,
+          "teamName": "Jamaica Kingsmen",
+          "teamSName": "JKM",
+          "imageId": 943098
+         },
+         "venueInfo": {
+          "id": 55,
+          "ground": "Kensington Oval",
+          "city": "Bridgetown, Barbados",
+          "timezone": "-04:00",
+          "latitude": "13.105021",
+          "longitude": "-59.62257"
+         },
+         "currBatTeamId": 3208,
+         "seriesStartDt": "1786060800000",
+         "seriesEndDt": "1790035200000",
+         "isTimeAnnounced": true,
+         "stateTitle": "JKM Won",
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 144,
+           "wickets": 6,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 145,
+           "wickets": 1,
+           "overs": 14.1
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 154671,
+         "seriesId": 12123,
+         "seriesName": "Caribbean Premier League 2026",
+         "matchDesc": "35th Match",
+         "matchFormat": "T20",
+         "startDate": "1789340400000",
+         "endDate": "1789353000000",
+         "state": "Complete",
+         "status": "Barbados Tridents won by 6 wkts",
+         "team1": {
+          "teamId": 159,
+          "teamName": "Guyana Amazon Warriors",
+          "teamSName": "GAW",
+          "imageId": 825126
+         },
+         "team2": {
+          "teamId": 262,
+          "teamName": "Barbados Tridents",
+          "teamSName": "BBT",
+          "imageId": 1050666
+         },
+         "venueInfo": {
+          "id": 55,
+          "ground": "Kensington Oval",
+          "city": "Bridgetown, Barbados",
+          "timezone": "-04:00",
+          "latitude": "13.105021",
+          "longitude": "-59.62257"
+         },
+         "currBatTeamId": 262,
+         "seriesStartDt": "1786060800000",
+         "seriesEndDt": "1790035200000",
+         "isTimeAnnounced": true,
+         "stateTitle": "BBT Won",
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 99,
+           "wickets": 10,
+           "overs": 18.1
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 100,
+           "wickets": 4,
+           "overs": 14.5
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 154660,
+         "seriesId": 12123,
+         "seriesName": "Caribbean Premier League 2026",
+         "matchDesc": "34th Match",
+         "matchFormat": "T20",
+         "startDate": "1789257600000",
+         "endDate": "1789270200000",
+         "state": "Complete",
+         "status": "Barbados Tridents won by 2 wkts",
+         "team1": {
+          "teamId": 3208,
+          "teamName": "Jamaica Kingsmen",
+          "teamSName": "JKM",
+          "imageId": 943098
+         },
+         "team2": {
+          "teamId": 262,
+          "teamName": "Barbados Tridents",
+          "teamSName": "BBT",
+          "imageId": 1050666
+         },
+         "venueInfo": {
+          "id": 55,
+          "ground": "Kensington Oval",
+          "city": "Bridgetown, Barbados",
+          "timezone": "-04:00",
+          "latitude": "13.105021",
+          "longitude": "-59.62257"
+         },
+         "currBatTeamId": 262,
+         "seriesStartDt": "1786060800000",
+         "seriesEndDt": "1790035200000",
+         "isTimeAnnounced": true,
+         "stateTitle": "BBT Won",
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 150,
+           "wickets": 9,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 151,
+           "wickets": 8,
+           "overs": 19.6
+          }
+         }
+        }
+       },
+       {
+        "matchInfo": {
+         "matchId": 154649,
+         "seriesId": 12123,
+         "seriesName": "Caribbean Premier League 2026",
+         "matchDesc": "33rd Match",
+         "matchFormat": "T20",
+         "startDate": "1789167600000",
+         "endDate": "1789180200000",
+         "state": "Complete",
+         "status": "Guyana Amazon Warriors won by 6 wkts",
+         "team1": {
+          "teamId": 271,
+          "teamName": "Trinbago Knight Riders",
+          "teamSName": "TKR",
+          "imageId": 825110
+         },
+         "team2": {
+          "teamId": 159,
+          "teamName": "Guyana Amazon Warriors",
+          "teamSName": "GAW",
+          "imageId": 825126
+         },
+         "venueInfo": {
+          "id": 110,
+          "ground": "Providence Stadium",
+          "city": "Guyana",
+          "timezone": "-04:00",
+          "latitude": "41.823872",
+          "longitude": "-71.411987"
+         },
+         "currBatTeamId": 159,
+         "seriesStartDt": "1786060800000",
+         "seriesEndDt": "1790035200000",
+         "isTimeAnnounced": true,
+         "stateTitle": "GAW Won",
+         "hideScoreStatus": "Match completed"
+        },
+        "matchScore": {
+         "team1Score": {
+          "inngs1": {
+           "inningsId": 1,
+           "runs": 126,
+           "wickets": 8,
+           "overs": 19.6
+          }
+         },
+         "team2Score": {
+          "inngs1": {
+           "inningsId": 2,
+           "runs": 127,
+           "wickets": 4,
+           "overs": 18.4
+          }
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ ]
+}

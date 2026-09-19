@@ -1,0 +1,126 @@
+{
+ "matches": [
+  {
+   "match": {
+    "matchInfo": {
+     "matchId": 152742,
+     "seriesId": 11997,
+     "seriesName": "Australia tour of Zimbabwe 2026",
+     "matchDesc": "2nd ODI",
+     "matchFormat": "ODI",
+     "startDate": 1789716600000,
+     "endDate": 1789741800000,
+     "state": "In Progress",
+     "status": "Zimbabwe need 224 runs",
+     "team1": {
+      "teamId": 4,
+      "teamName": "Australia",
+      "teamSName": "AUS",
+      "imageId": 776202
+     },
+     "team2": {
+      "teamId": 12,
+      "teamName": "Zimbabwe",
+      "teamSName": "ZIM",
+      "imageId": 776198
+     },
+     "venueInfo": {
+      "id": 69,
+      "ground": "Harare Sports Club",
+      "city": "Harare",
+      "timezone": "+02:00"
+     },
+     "currBatTeamId": 12,
+     "seriesStartDt": 1789344000000,
+     "seriesEndDt": 1789948800000,
+     "isTimeAnnounced": true,
+     "stateTitle": "In Progress",
+     "matchType": "International",
+     "shortStatus": "Need 224 to win",
+     "matchImageId": 1076684,
+     "hideScoreStatus": "Match in progress"
+    },
+    "matchScore": {
+     "team1Score": {
+      "inngs1": {
+       "inningsId": 1,
+       "runs": 356,
+       "wickets": 6,
+       "overs": 49.6
+      }
+     },
+     "team2Score": {
+      "inngs1": {
+       "inningsId": 2,
+       "runs": 133,
+       "wickets": 3,
+       "overs": 28.1
+      }
+     }
+    }
+   }
+  },
+  {
+   "match": {
+    "matchInfo": {
+     "matchId": 170933,
+     "seriesId": 12602,
+     "seriesName": "Women's Asian Games 2026",
+     "matchDesc": "4th Quarter Final",
+     "matchFormat": "T20",
+     "startDate": 1789707600000,
+     "endDate": 1789714398615,
+     "state": "Complete",
+     "status": "India Women won by 8 wkts",
+     "team1": {
+      "teamId": 487,
+      "teamName": "Japan Women",
+      "teamSName": "JPNW",
+      "imageId": 248419
+     },
+     "team2": {
+      "teamId": 97,
+      "teamName": "India Women",
+      "teamSName": "INDW",
+      "imageId": 776182
+     },
+     "venueInfo": {
+      "id": 1438323,
+      "ground": "Korogi Sports Park",
+      "city": "Nisshin",
+      "timezone": "+09:00"
+     },
+     "currBatTeamId": 97,
+     "isTournament": true,
+     "seriesStartDt": 1789516800000,
+     "seriesEndDt": 1790121600000,
+     "isTimeAnnounced": true,
+     "stateTitle": "INDW won",
+     "matchType": "International",
+     "shortStatus": "INDW won",
+     "matchImageId": 1076504,
+     "hideScoreStatus": "Match completed"
+    },
+    "matchScore": {
+     "team1Score": {
+      "inngs1": {
+       "inningsId": 1,
+       "runs": 57,
+       "wickets": 10,
+       "overs": 19.5
+      }
+     },
+     "team2Score": {
+      "inngs1": {
+       "inningsId": 2,
+       "runs": 59,
+       "wickets": 2,
+       "overs": 4.6
+      }
+     }
+    }
+   }
+  }
+ ],
+ "responseLastUpdated": 1789737978710
+}

@@ -1,0 +1,28 @@
+{
+ "seriesMapProto": [
+  {
+   "date": "2026",
+   "series": [
+    {
+     "id": 12191,
+     "name": "Australia U19 tour of India 2026",
+     "startDt": "1789689600000",
+     "endDt": "1791417600000",
+     "thumborImageId": 876143,
+     "isDefaultImage": true
+    },
+    {
+     "id": 12723,
+     "name": "Australia Domestic One-Day Cup 2026-27",
+     "startDt": "1789689600000",
+     "endDt": "1802563200000",
+     "thumborImageId": 1076746
+    }
+   ]
+  }
+ ],
+ "appIndex": {
+  "seoTitle": "Current Running Cricket Series - Cricbuzz | Cricbuzz.com",
+  "webURL": "www.cricbuzz.com/cricket-series/"
+ }
+}

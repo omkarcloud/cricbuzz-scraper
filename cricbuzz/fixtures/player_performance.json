@@ -1,0 +1,904 @@
+{
+ "header": {
+  "player": {
+   "id": "6250",
+   "name": "Mitchell Marsh",
+   "role": "Batting Allrounder",
+   "imageId": "845760"
+  },
+  "battingSummary": "53(63)",
+  "bowlingSummary": ""
+ },
+ "battingDetails": {
+  "innings": [
+   {
+    "inningsId": "1",
+    "inningsLabel": "1st Innings",
+    "wicketBowlerId": "8460",
+    "card": {
+     "headers": [
+      "Runs",
+      "SR",
+      "6s",
+      "4s",
+      "2s",
+      "1s",
+      "Dots"
+     ],
+     "values": [
+      "53(63)",
+      "84.13",
+      "3",
+      "3",
+      "4",
+      "15",
+      "38"
+     ]
+    },
+    "matchups": {
+     "headers": [
+      "Bowler",
+      "B",
+      "R",
+      "D",
+      "4s",
+      "6s",
+      "SR"
+     ],
+     "values": [
+      [
+       "54385",
+       "Newman Nyamhuri",
+       "11",
+       "15",
+       "5",
+       "1",
+       "1",
+       "136.4"
+      ],
+      [
+       "19592",
+       "Brad Evans",
+       "16",
+       "13",
+       "12",
+       "1",
+       "1",
+       "81.2"
+      ],
+      [
+       "8460",
+       "Wellington Masakadza",
+       "12",
+       "10",
+       "7",
+       "0",
+       "1",
+       "83.3"
+      ],
+      [
+       "13316",
+       "Blessing Muzarabani",
+       "11",
+       "8",
+       "8",
+       "1",
+       "0",
+       "72.7"
+      ],
+      [
+       "9354",
+       "Sikandar Raza",
+       "13",
+       "7",
+       "6",
+       "0",
+       "0",
+       "53.9"
+      ]
+     ]
+    },
+    "commentaryList": [
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, B0$ Bowled!! Only just clips the outside of off stump, enough to dislodge the bails, and Masakadza is pumped. It's a peach of a delivery. Tossed up from round the wicket, drifts in, lands on a good length, and Marsh is caught in the crease in defence. It grips just enough to square him up before kissing the off stump. Should've been forward there. But finally Zimbabwe have a breakthrough. B1$",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$",
+         "B1$"
+        ],
+        "formatValue": [
+         "out",
+         "Mitchell Marsh b Wellington Masakadza 53(63) [4s-3 6s-3]"
+        ]
+       }
+      },
+      "event": "over-break,WICKET",
+      "overNum": "18.6",
+      "ballNbr": "114",
+      "timestamp": "1789721405110"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, 1 run, punched off the back foot through the covers",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "18.3",
+      "ballNbr": "111",
+      "timestamp": "1789721335174"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, driven down the pitch, Masakadza stretches to his right and cuts it off. Some dots building up on Marsh",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "18.2",
+      "ballNbr": "110",
+      "timestamp": "1789721308391"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, driven down the ground, short extra cover intercepts with a diving stop to his right",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "18.1",
+      "ballNbr": "109",
+      "timestamp": "1789721293145"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, punched off the back foot down to long-off",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "17.6",
+      "ballNbr": "108",
+      "timestamp": "1789721242208"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, defended off the back foot to short midwicket",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "17.5",
+      "ballNbr": "107",
+      "timestamp": "1789721238533"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, turning in off a length, Marsh hangs back and punches it down the pitch",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "17.4",
+      "ballNbr": "106",
+      "timestamp": "1789721195224"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, overpitched on off, driven to short cover",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "17.3",
+      "ballNbr": "105",
+      "timestamp": "1789721175948"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, turning down leg, he looks to flick it away but is hit on the pad",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "17.2",
+      "ballNbr": "104",
+      "timestamp": "1789721157653"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, floated up at the stumps, defended forward",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "17.1",
+      "ballNbr": "103",
+      "timestamp": "1789721139005"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, 1 run, tossed up around off, knocks it down the ground",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "16.6",
+      "ballNbr": "102",
+      "timestamp": "1789720844127"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, B0$, has that hit the cushions on the full? So far Masakadza has got his lengths spot on, but this time he drops it short and Marsh jumps onto it. Goes back and pulls hard over midwicket, and it hits the boundary on the full. B1$. Comparatively more subdued to Head, but it's come at nearly a run a ball",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$",
+         "B1$"
+        ],
+        "formatValue": [
+         "SIX",
+         "Fifty up for the Aussie captain"
+        ]
+       }
+      },
+      "event": "FIFTY",
+      "overNum": "16.5",
+      "ballNbr": "101",
+      "timestamp": "1789720823687"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, good length just outside off, Marsh hangs back and punches to short extra cover",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "16.4",
+      "ballNbr": "100",
+      "timestamp": "1789720731830"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, 1 run, full on off, driven to long-off",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "16.2",
+      "ballNbr": "98",
+      "timestamp": "1789720678670"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, floated up at the stumps, defended forward",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "16.1",
+      "ballNbr": "97",
+      "timestamp": "1789720661021"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, floated up around off, he gets forward and punches to long-off",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "15.5",
+      "ballNbr": "95",
+      "timestamp": "1789720591412"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, no run, good length on off, Marsh hangs back and punches it down the pitch",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "15.4",
+      "ballNbr": "94",
+      "timestamp": "1789720571411"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, flat on leg, Marsh pulls it to deep backward square",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "15.2",
+      "ballNbr": "92",
+      "timestamp": "1789720519090"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, lands it on a good length, Marsh hangs back in defence and gets a thick inside edge behind square. Expected more turn than there was. Slightly undone by the in-drift too",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "14.6",
+      "ballNbr": "90",
+      "timestamp": "1789720439869"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, no run, drifting in, finishes down leg and Marsh gets an inside edge onto pad in defence",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "14.5",
+      "ballNbr": "89",
+      "timestamp": "1789720421451"
+     },
+     {
+      "commText": "Wellington Masakadza to Mitchell Marsh, 1 run, floated up on off, Marsh gets forward and drives to long-off",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "14.1",
+      "ballNbr": "85",
+      "timestamp": "1789720325457"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, slower through the air, it's tossed up on off, dips on Marsh's forward defence and he drags it off the inside edge behind square",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "13.1",
+      "ballNbr": "79",
+      "timestamp": "1789720137928"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, B0$, well down the leg-side, left alone",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "wide"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "13.1",
+      "ballNbr": "79",
+      "timestamp": "1789720090865"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, 1 run, length ball angling away from off, Marsh punches it on the up to sweeper cover",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "12.6",
+      "ballNbr": "78",
+      "timestamp": "1789720038386"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, 1 run, B0$ Sits up from short of length outside off, Marsh pulls wide of the fielder who keeps it to a single",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "good diving stop at mid-on!"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "12.2",
+      "ballNbr": "74",
+      "timestamp": "1789719891610"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, 2 runs, good length on leg, he works it wide of fine leg and is back for two",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "12.1",
+      "ballNbr": "73",
+      "timestamp": "1789719859129"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, again he bowls it short to Marsh who pulls it along the ground this time to deep midwicket",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "11.6",
+      "ballNbr": "72",
+      "timestamp": "1789719793555"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, dragged down short, Marsh looks to pull, B0$ and gets a big slice of luck as it lands between two fielders in the deep",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "completely miscues it in the air"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "11.4",
+      "ballNbr": "70",
+      "timestamp": "1789719746174"
+     },
+     {
+      "commText": "Sikandar Raza to Mitchell Marsh, 1 run, flat on leg, Marsh steps back and tucks it behind square",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "11.1",
+      "ballNbr": "67",
+      "timestamp": "1789719645490"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, 1 run, nice in-between length outside off, Marsh is trapped in the crease, pokes at it and B0$",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "squirts it off a thick edge down to third man"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "10.5",
+      "ballNbr": "65",
+      "timestamp": "1789719531055"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, B0$, smashed on the up through extra cover! It's a length ball angling away from off, and Marsh gets it right off the middle as he meets it on the rise",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "FOUR"
+        ]
+       }
+      },
+      "event": "FOUR",
+      "overNum": "10.4",
+      "ballNbr": "64",
+      "timestamp": "1789719489970"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, good length delivery around the top of off, Marsh goes back and defends",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "9.6",
+      "ballNbr": "60",
+      "timestamp": "1789719311624"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, 2 runs, half-volley on the pads, he flicks it behind square and is back for two",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "9.5",
+      "ballNbr": "59",
+      "timestamp": "1789719252531"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, no run, goes back in the crease and taps it to cover-pointx",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "8.6",
+      "ballNbr": "54",
+      "timestamp": "1789718999628"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, B0$, slower ball well wide of off, left alone",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "wide"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "8.6",
+      "ballNbr": "54",
+      "timestamp": "1789718965530"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, no run, back of a length on off, he looks to defend from the crease and gets it off the inside half to midwicket",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "8.5",
+      "ballNbr": "53",
+      "timestamp": "1789718943529"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, no run, overpitched on off, Marsh plays a check-drive that goes quickly to mid-off",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "8.4",
+      "ballNbr": "52",
+      "timestamp": "1789718897791"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, no run, good length on middle and off, Marsh is rooted to the crease and defends",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "8.3",
+      "ballNbr": "51",
+      "timestamp": "1789718861224"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, no run, good length across off, left-arm over, Marsh gets forward and punches it down the pitch",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "8.2",
+      "ballNbr": "50",
+      "timestamp": "1789718814559"
+     },
+     {
+      "commText": "Newman Nyamhuri to Mitchell Marsh, B0$, such a good puller of the ball! Short of length, sits up above the waist and Marsh smokes it over midwicket. Not the start Nyamhuri was looking for",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "SIX"
+        ]
+       }
+      },
+      "event": "SIX",
+      "overNum": "8.1",
+      "ballNbr": "49",
+      "timestamp": "1789718774305"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, 1 run, B0$ It's short of length in the channel, climbs on Marsh as he tries steering it through the off-side, could've gone anywhere",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "chopped back past the stumps off a thick inside edge!"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "7.3",
+      "ballNbr": "45",
+      "timestamp": "1789718579980"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, B0$, straying on middle and leg, Marsh clips it nicely through square leg and the ball teases the fielder all the way to the ropes. A desperate dive to flick it back goes in vain",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "FOUR"
+        ]
+       }
+      },
+      "event": "FOUR",
+      "overNum": "7.2",
+      "ballNbr": "44",
+      "timestamp": "1789718521496"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, good length on middle and leg, Marsh bunts it from the crease to mid-on",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "7.1",
+      "ballNbr": "43",
+      "timestamp": "1789718494087"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, B0$ Nicely bowled by Evans! It's around a good length outside off, nips away from Marsh who plays away from the body and guides it to backward point",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "tentatively pokes at it from the crease!"
+        ]
+       }
+      },
+      "event": "over-break",
+      "overNum": "5.6",
+      "ballNbr": "36",
+      "timestamp": "1789718131534"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, B0$, short ball angling down leg, left alone by Marsh",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "wide"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "5.6",
+      "ballNbr": "36",
+      "timestamp": "1789718112809"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, good length delivery nipping in around off, Marsh gets forward and defends\\",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "5.5",
+      "ballNbr": "35",
+      "timestamp": "1789718072832"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, B0$ Height is an issue here. Back of a length, sneaks under the bat as Marsh looks to pull and it hits him on the back thigh. Clearly going over the top of middle, and ball-tracking confirms the same. Not a great review",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "review for LBW from Zimbabwe."
+        ]
+       }
+      },
+      "event": "UDRS",
+      "overNum": "5.4",
+      "ballNbr": "34",
+      "timestamp": "1789718032130"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, keeper gathers it above his left shoulder as Marsh leaves it off a length",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "4.6",
+      "ballNbr": "30",
+      "timestamp": "1789717777252"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, back of a length in the channel, Marsh blocks from the crease to short cover",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "4.5",
+      "ballNbr": "29",
+      "timestamp": "1789717746354"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, good length outside off, left alone",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "4.4",
+      "ballNbr": "28",
+      "timestamp": "1789717712627"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, B0$, angling down leg, he looks to clip it away but misses",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "wide"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "4.4",
+      "ballNbr": "28",
+      "timestamp": "1789717678211"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, B0$, dug in on a short of length, Marsh looks to pull and drags it off a thick under-edge behind square",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "FOUR"
+        ]
+       }
+      },
+      "event": "FOUR",
+      "overNum": "4.3",
+      "ballNbr": "27",
+      "timestamp": "1789717642158"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, back of a length on leg, Marsh shuffles across and tucks it to midwicket",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "4.2",
+      "ballNbr": "26",
+      "timestamp": "1789717608860"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, hard length in the channel, blocked from the crease",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "3.6",
+      "ballNbr": "24",
+      "timestamp": "1789717511864"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, good length in the channel, nips away, and Marsh leaves it alone",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "3.5",
+      "ballNbr": "23",
+      "timestamp": "1789717482060"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, B0$, advances down, gets a short ball, tries to pull but it gets big on him! Luckily for Marsh, it B1$",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$",
+         "B1$"
+        ],
+        "formatValue": [
+         "SIX",
+         "sails away off the top-edge over the keeper"
+        ]
+       }
+      },
+      "event": "SIX",
+      "overNum": "3.4",
+      "ballNbr": "22",
+      "timestamp": "1789717438057"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, angling down leg with this length ball, and Marsh misses out, getting hit on the pad",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "3.3",
+      "ballNbr": "21",
+      "timestamp": "1789717405128"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, back of a length delivery just outside off, blocked from the crease",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "3.2",
+      "ballNbr": "20",
+      "timestamp": "1789717375801"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, steps out premeditatedly, it's back of a length on middle and he defends",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "3.1",
+      "ballNbr": "19",
+      "timestamp": "1789717345693"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, shuffles across and tucks it to midwicket with the ball angling in on middle",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "1.6",
+      "ballNbr": "12",
+      "timestamp": "1789717039723"
+     },
+     {
+      "commText": "Brad Evans to Mitchell Marsh, no run, back of a length delivery around middle and off, Marsh hangs back and blocks",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "1.5",
+      "ballNbr": "11",
+      "timestamp": "1789717008608"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, cutting in from back of a length, strikes Marsh on the thigh pad",
+      "commentaryFormats": {},
+      "event": "over-break",
+      "overNum": "0.6",
+      "ballNbr": "6",
+      "timestamp": "1789716784368"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, left alone outside off",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "0.5",
+      "ballNbr": "5",
+      "timestamp": "1789716759437"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, 2 runs, full and angled into the pads, Marsh is late on it and gets an inside edge that deflects off the pad behind square",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "0.4",
+      "ballNbr": "4",
+      "timestamp": "1789716718381"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, hits a good length in the channel, Marsh leaves it alone",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "0.3",
+      "ballNbr": "3",
+      "timestamp": "1789716690144"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, no run, yorker around off, Marsh squeezes it out",
+      "commentaryFormats": {},
+      "event": "NONE",
+      "overNum": "0.2",
+      "ballNbr": "2",
+      "timestamp": "1789716653652"
+     },
+     {
+      "commText": "Blessing Muzarabani to Mitchell Marsh, 2 runs, B0$ Good length in the channel, Marsh pushes at it, slices it wide of backward point who dives one-handed at full stretch, but fails to hold on. Not easy at all, even though it was on his right side",
+      "commentaryFormats": {
+       "bold": {
+        "formatId": [
+         "B0$"
+        ],
+        "formatValue": [
+         "difficult chance goes down first ball!"
+        ]
+       }
+      },
+      "event": "NONE",
+      "overNum": "0.1",
+      "ballNbr": "1",
+      "timestamp": "1789716627403"
+     }
+    ],
+    "commentarySnippetList": []
+   }
+  ],
+  "seriesStats": {
+   "details": {
+    "seriesId": "11997",
+    "seriesName": "Australia tour of Zimbabwe 2026",
+    "format": "ODI",
+    "matchTypeId": "2",
+    "seriesURL": "/live-cricket-scores/11997/australia-tour-of-zimbabwe-2026"
+   },
+   "overall": {
+    "headers": [
+     "Stats",
+     "Ranking"
+    ],
+    "values": [
+     [
+      "Matches",
+      "1",
+      "-"
+     ],
+     [
+      "Innings",
+      "1",
+      "-"
+     ],
+     [
+      "Runs",
+      "36",
+      "5"
+     ],
+     [
+      "Balls",
+      "28",
+      "-"
+     ],
+     [
+      "HS",
+      "36",
+      "5"
+     ],
+     [
+      "Avg",
+      "36.00",
+      "-"
+     ],
+     [
+      "SR",
+      "128.57",
+      "-"
+     ],
+     [
+      "Not Out",
+      "0",
+      "-"
+     ],
+     [
+      "Dots",
+      "17",
+      "-"
+     ],
+     [
+      "Fours",
+      "6",
+      "2"
+     ],
+     [
+      "Sixes",
+      "1",
+      "3"
+     ],
+     [
+      "Fifties",
+      "0",
+      "-"
+     ],
+     [
+      "Hundreds",
+      "0",
+      "-"
+     ],
+     [
+      "Nineties",
+      "0",
+      "-"
+     ],
+     [
+      "Ducks",
+      "0",
+      "-"
+     ]
+    ]
+   }
+  }
+ },
+ "bowlingDetails": null
+}
