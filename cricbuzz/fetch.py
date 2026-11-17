@@ -43,12 +43,14 @@ import os
 import sys
 import threading
 import time
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait as wait_futures
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import config
+import egress
 from scraper_errors import BadRequest, Blocked, NotFound, UpstreamError
+from scraper_utils import debug, fanout, sessions
 
 SITE = "https://www.cricbuzz.com"
 IMPERSONATE = "chrome"
@@ -62,12 +64,12 @@ NOT_FOUND_MARKER = ">Nothing to show</h2>"
 
 JSON_HEADERS = {
     "accept": "application/json, text/plain, */*",
-    "accept-language": "en-US,en;q=0.9",
+    "accept-language": egress.site_accept_language("cricbuzz"),
     "referer": SITE + "/",
 }
 PAGE_HEADERS = {
     "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-    "accept-language": "en-US,en;q=0.9",
+    "accept-language": egress.site_accept_language("cricbuzz"),
     "upgrade-insecure-requests": "1",
 }
 
@@ -113,25 +115,12 @@ def _session():
 
 
 def _drop_session():
-    sess = getattr(_local, "session", None)
-    _local.session = None
-    if sess is not None:
-        try:
-            sess.close()
-        except Exception:
-            pass
+    sessions.drop(_local)
 
 
 def dump_debug(name, text):
     """Write a raw response to $CRICBUZZ_DEBUG_DIR/<name>.txt."""
-    dbg = os.environ.get("CRICBUZZ_DEBUG_DIR", "")
-    if dbg and text:
-        try:
-            os.makedirs(dbg, exist_ok=True)
-            with open(os.path.join(dbg, name + ".txt"), "w") as f:
-                f.write(text)
-        except OSError:
-            pass
+    debug.dump("CRICBUZZ_DEBUG_DIR", name, text)
 
 
 # ---- requests ----------------------------------------------------------------------
@@ -228,6 +217,24 @@ def get_page(path, *, optional=False):
         raise
 
 
+# Long-lived pools (2026-10-23): their threads keep their thread-local curl
+# sessions — and the sticky exits behind them — between requests. The
+# per-call executor they replace opened fresh sessions/exits for every
+# fan-out and threw them away when the call returned. Two levels: a fan-out
+# running inside a fan-out goes to the second pool, so it neither waits on
+# the workers it occupies (deadlock) nor loses its parallelism; a third
+# level runs inline.
+_pools = (ThreadPoolExecutor(max_workers=FANOUT_WORKERS * 4, thread_name_prefix="cricbuzz-fanout-0"),
+          ThreadPoolExecutor(max_workers=FANOUT_WORKERS * 4, thread_name_prefix="cricbuzz-fanout-1"))
+
+
+def _windowed(fns, workers):
+    """Run `fns` on the pool for this nesting level, at most `workers` at a
+    time; results align with `fns`. The first failure (in `fns` order)
+    propagates once the callables already started have finished."""
+    return fanout.windowed(_pools, "cricbuzz-fanout", fns, workers)
+
+
 def run_parallel(fns):
     """Run zero-arg callables in parallel; results align with `fns`.
     Exceptions propagate from the first failing call."""
@@ -235,26 +242,13 @@ def run_parallel(fns):
         return []
     if len(fns) == 1:
         return [fns[0]()]
-    with ThreadPoolExecutor(max_workers=min(FANOUT_WORKERS, len(fns))) as ex:
-        futures = [ex.submit(fn) for fn in fns]
-        return [f.result() for f in futures]
+    return _windowed(fns, FANOUT_WORKERS)
 
 
 def gather(mapping):
     """Run {key: callable} in parallel -> {key: result}; a NotFound or
     BadRequest for one key yields None instead of failing the whole set."""
-    keys = list(mapping)
-
-    def guarded(fn):
-        def run():
-            try:
-                return fn()
-            except (CricbuzzNotFound, CricbuzzBadRequest):
-                return None
-        return run
-
-    results = run_parallel([guarded(mapping[k]) for k in keys])
-    return dict(zip(keys, results))
+    return fanout.gather(run_parallel, mapping, (CricbuzzNotFound, CricbuzzBadRequest))
 
 
 if __name__ == "__main__":

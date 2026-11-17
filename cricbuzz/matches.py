@@ -130,6 +130,21 @@ def _page_data(match_id, page, key, *, where=None, label=None):
     return rows, undefined_to_none(data)
 
 
+def _current_status(header, *candidates):
+    """Cricbuzz freezes a match header's `status` at the toss line ("Zimbabwe
+    opt to bowl") for the whole match; the live one ("Zimbabwe need 104 runs",
+    "Australia won by 84 runs") sits in the miniscore or the scorecard. Put the
+    first fresher status on the header. An upcoming match has neither, so its
+    "Match starts at …" header status stays."""
+    if not isinstance(header, dict):
+        return header
+    for status in candidates:
+        if P.clean(status):
+            header["status"] = P.clean(status)
+            break
+    return header
+
+
 def get_details(match):
     """Everything about one match in one call: the header with officials,
     toss, result and awards, the series scoreline, the venue, the live
@@ -158,6 +173,7 @@ def get_details(match):
                 info[key] = header[key]
     views = parts["views"] or {}
     info["live"] = P.miniscore(mini.get("miniscore"))
+    _current_status(info, (info["live"] or {}).get("status"))
     info["viewers"] = [{"type": P.clean(v.get("type")), "label": P.clean(v.get("title")), "count": P.clean(v.get("count"))}
                        for v in views.get("viewersCount") or [] if isinstance(v, dict)] or None
     info["updated_at"] = P.iso_time(mini.get("miniscore", {}).get("responseLastUpdated") if isinstance(mini.get("miniscore"), dict) else None)
@@ -170,9 +186,10 @@ def get_live_score(match):
     match_id = _mid(match)
     data = _handler(f"/api/mcenter/livescore/{match_id}", None, optional=False)
     mini = _handler(f"/api/mcenter/{match_id}/miniscore", f"/api/mcenter/{match_id}/hminiscore")
+    live = P.miniscore(data.get("miniscore"))
     return {
-        "match": P.match_header((mini or {}).get("matchHeader")),
-        "live": P.miniscore(data.get("miniscore")),
+        "match": _current_status(P.match_header((mini or {}).get("matchHeader")), (live or {}).get("status")),
+        "live": live,
         "recent_balls": P.commentary_list(data.get("commentaryList")),
     }
 
@@ -182,7 +199,9 @@ def get_scorecard(match):
     wickets, partnerships and powerplays."""
     match_id = _mid(match)
     data = _handler(f"/api/mcenter/scorecard/{match_id}", f"/api/mcenter/hscorecard/{match_id}", optional=False)
-    return P.scorecard(data)
+    card = P.scorecard(data)
+    _current_status(card.get("match"), card.get("status"))
+    return card
 
 
 def get_commentary(match, innings=None, before=None):
@@ -210,9 +229,10 @@ def get_commentary(match, innings=None, before=None):
         entries = [e for e in entries if e.get("innings_id") == innings]
     raw_feed = data.get("matchCommentary") or {}
     oldest = min((P.to_int(k) or 0 for k in raw_feed), default=None) if isinstance(raw_feed, dict) else None
+    live = P.miniscore(data.get("miniscore"))
     return {
-        "match": P.match_header(data.get("matchHeader")),
-        "live": P.miniscore(data.get("miniscore")),
+        "match": _current_status(P.match_header(data.get("matchHeader")), (live or {}).get("status")),
+        "live": live,
         "entry_count": len(entries),
         "commentary": entries,
         "next_before": oldest or None,
@@ -232,9 +252,10 @@ def get_full_commentary(match, innings=None):
     for block in data.get("commentary") or []:
         entries = P.commentary_list(block.get("commentaryList"))
         blocks.append({"innings_id": P.to_int(block.get("inningsId")), "entry_count": len(entries), "commentary": entries})
+    live = P.miniscore(details.get("miniscore"))
     return {
-        "match": P.match_header(details.get("matchHeader")),
-        "live": P.miniscore(details.get("miniscore")),
+        "match": _current_status(P.match_header(details.get("matchHeader")), (live or {}).get("status")),
+        "live": live,
         "innings": blocks,
     }
 

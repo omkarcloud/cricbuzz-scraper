@@ -34,6 +34,7 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 
 from . import refs
+from scraper_utils.values import num as to_float
 
 SITE = "https://www.cricbuzz.com"
 IMG = "https://static.cricbuzz.com/a/img/v1/i1/c{id}/i.jpg?p=det&d=high"
@@ -71,20 +72,6 @@ def to_int(value):
     if re.fullmatch(r"-?\d+\.0+", text):
         return int(float(text))
     return None
-
-
-def to_float(value):
-    if value is None or value == "" or value == "$undefined":
-        return None
-    if isinstance(value, bool):
-        return None
-    if isinstance(value, (int, float)):
-        return float(value)
-    text = str(value).strip().replace(",", "")
-    try:
-        return float(text)
-    except ValueError:
-        return None
 
 
 def to_number(value):
@@ -821,9 +808,49 @@ def _events(value):
     return out
 
 
+def _flat_over_summary(raw):
+    """The full-commentary feed's over separator: the flat over-by-over shape
+    (`overNum` 17.6, `o_summary`, `batStrikerIds`…) instead of the /comm
+    objects — mapped to the same public keys and string formats."""
+    def first(key):
+        values = raw.get(key)
+        return values[0] if isinstance(values, list) and values else None
+
+    over_num = to_float(raw.get("overNum"))
+    score, wickets = to_int(raw.get("score")), to_int(raw.get("wickets"))
+
+    def batter(prefix):
+        name = first(f"{prefix}Names")
+        if not clean(name):
+            return None
+        runs, balls = to_int(raw.get(f"{prefix}Runs")), to_int(raw.get(f"{prefix}Balls"))
+        return {**(player_stub(first(f"{prefix}Ids"), name) or {}),
+                "score": f"{runs}({balls})" if runs is not None and balls is not None else None}
+
+    bowler = None
+    if clean(first("bowlNames")):
+        parts = [raw.get(k) for k in ("bowlOvers", "bowlMaidens", "bowlRuns", "bowlWickets")]
+        bowler = {**(player_stub(first("bowlIds"), first("bowlNames")) or {}),
+                  "figures": "-".join(str(to_number(v)) for v in parts) if all(v is not None for v in parts) else None}
+    return {
+        # 17.6 = the 18th over just ended, the /comm feed's `overNumber` 18.
+        "over": int(over_num) + (0 if over_num.is_integer() else 1) if over_num is not None else None,
+        "balls": clean(raw.get("o_summary")),
+        "runs": to_int(raw.get("runs")),
+        "batting_team": {"name": clean(raw.get("batTeamName")),
+                         "score": f"{score}-{wickets}" if score is not None and wickets is not None else None},
+        "striker": batter("batStriker"),
+        "non_striker": batter("batNonStriker"),
+        "bowler": bowler,
+        "time": iso_time(raw.get("timestamp")),
+    }
+
+
 def _over_summary(raw):
     if not isinstance(raw, dict) or not raw:
         return None
+    if "o_summary" in raw or "overNum" in raw:
+        return _flat_over_summary(raw)
     bat = raw.get("batTeamObj") or {}
     striker = raw.get("batStrikerObj") or {}
     non_striker = raw.get("batNonStrikerObj") or {}

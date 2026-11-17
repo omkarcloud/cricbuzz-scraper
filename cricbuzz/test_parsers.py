@@ -342,3 +342,29 @@ def test_series_list_topics_gallery_and_table():
     innings = P.html_table(load("player_all_matches.html"))
     assert innings[0] == {"series": "India tour of England, 2026", "score": "74(60)", "opponent": "ENG", "format": "ODI",
                           "venue": "London", "date": "2026-07-19", "strike_rate": 123.3, "fours": 4, "sixes": 3}
+
+
+# ---- regressions (2026-09-19) ----------------------------------------------------
+
+def test_flat_over_summary_from_the_full_commentary_feed():
+    # The full-commentary feed's overSeparator is flat, not the /comm objects;
+    # it used to come out as an over_summary with every field null.
+    raw = {"score": 161, "wickets": 5, "o_summary": "1 1 0 1 4 6 ", "runs": 13, "overNum": 17.6,
+           "batStrikerIds": [1413], "batStrikerNames": ["Virat Kohli"], "batStrikerRuns": 75, "batStrikerBalls": 42,
+           "batNonStrikerIds": [10214], "batNonStrikerNames": ["Jitesh Sharma"], "batNonStrikerRuns": 11,
+           "batNonStrikerBalls": 14, "bowlIds": [18637], "bowlNames": ["Arshad Khan"], "bowlOvers": 4,
+           "bowlMaidens": 0, "bowlRuns": 32, "bowlWickets": 1, "timestamp": 1780250171844, "batTeamName": "RCB"}
+    summary = P.commentary_entry({"commText": "x", "overSeparator": raw})["over_summary"]
+    assert summary["over"] == 18 and summary["balls"] == "1 1 0 1 4 6" and summary["runs"] == 13
+    assert summary["batting_team"] == {"name": "RCB", "score": "161-5"}
+    assert summary["striker"]["name"] == "Virat Kohli" and summary["striker"]["score"] == "75(42)"
+    assert summary["bowler"]["figures"] == "4-0-32-1"
+
+
+def test_current_status_replaces_the_frozen_toss_line():
+    from cricbuzz.matches import _current_status
+    header = {"status": "Zimbabwe opt to bowl"}
+    assert _current_status(header, None, "Australia won by 84 runs")["status"] == "Australia won by 84 runs"
+    # An upcoming match has no fresher status — its header keeps "Match starts at".
+    assert _current_status({"status": "Match starts at Sep 20"}, None, "")["status"] == "Match starts at Sep 20"
+    assert _current_status(None, "x") is None
